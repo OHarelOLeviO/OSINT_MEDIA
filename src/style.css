@@ -37,4 +37,4 @@ h1,h2,h3{font-family:var(--display);line-height:1.08;letter-spacing:-.05em;margi
 
 :root{font-family:Arial,system-ui,sans-serif;--display:Arial,system-ui,sans-serif}.chips button,button{font-family:inherit}.skip{inset-inline-start:0}
 
-.card-original{position:relative;z-index:1}.region-icon{font-size:16px;vertical-align:middle;margin-inline-end:3px}
+.card-original{position:relative;z-index:1}

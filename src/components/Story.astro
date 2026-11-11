@@ -1,16 +1,15 @@
 ---
-import {url,stamp,topicName,mainIdea,storyEditions,inHebrew,sourcePlatform,type Story} from '../lib';
+import {url,stamp,topicName,mainIdea,inHebrew,sourcePlatform,type Story} from '../lib';
 const {story:s,lead=false}=Astro.props as {story:Story;lead?:boolean};
 const hebrew=inHebrew(s.title);
 const idea=mainIdea(s);
-const local=storyEditions(s).includes("israel");
 const original=s.coverage[0]?.url;
 const image=s.coverage.find(c=>c.image)?.image;
 const platform=sourcePlatform(s.coverage[0]?.source);
 const symbols:Record<string,string>={world:'◎',politics:'◇',finance:'↗',technology:'✳',space:'✦',sports:'◈'};
 ---
-<article class:list={['story','post',{lead}]} data-story lang={hebrew?"he":"en"} dir={hebrew?"rtl":"ltr"} data-hebrew={hebrew?"1":"0"} data-topic={s.topic} data-editions={storyEditions(s).join(" ")} data-reported={s.reported} data-date={s.reported.slice(0,10)} data-source={s.coverage.map(x=>x.source).join(' ')} data-search={[s.title,topicName(s.topic),...s.coverage.flatMap(x=>[x.publisher,x.excerpt])].join(' ').toLowerCase()}>
-<div class="post-top"><span class="avatar" aria-hidden="true">{symbols[s.topic] ?? '◇'}</span><div><strong><span class="region-icon" role="img" aria-label={local?"ישראל":"עולמי"}>{local?"🇮🇱":"🌐"}</span> {s.coverage[0]?.publisher}{platform && platform!=="RSS" && " · "+platform}</strong><div class="meta"><time datetime={s.reported}>{stamp(s.reported)}</time></div></div></div>
+<article class:list={['story','post',{lead}]} data-story lang={hebrew?"he":"en"} dir={hebrew?"rtl":"ltr"} data-hebrew={hebrew?"1":"0"} data-topic={s.topic} data-reported={s.reported} data-date={s.reported.slice(0,10)} data-source={s.coverage.map(x=>x.source).join(' ')} data-search={[s.title,topicName(s.topic),...s.coverage.flatMap(x=>[x.publisher,x.excerpt])].join(' ').toLowerCase()}>
+<div class="post-top"><span class="avatar" aria-hidden="true">{symbols[s.topic] ?? '◇'}</span><div><strong>{s.coverage[0]?.publisher}{platform && platform!=="RSS" && " · "+platform}</strong><div class="meta"><time datetime={s.reported}>{stamp(s.reported)}</time></div></div></div>
 <a class="eyebrow topic-link" href={url('topic/'+s.topic)}>{topicName(s.topic)}</a>
 <h3><a class="post-link" href={url('story/'+s.id)}><bdi>{s.title}</bdi></a></h3>{idea && <p>{idea}</p>}
 {image && <img class="post-image" src={image} alt="" loading="lazy" decoding="async"/>}

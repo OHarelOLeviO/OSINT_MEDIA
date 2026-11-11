@@ -73,7 +73,7 @@ async function fetchFeed(source:typeof sources[number]){
           entries=feed.rss?.channel?.item ?? feed.feed?.entry ?? [];
         }
       }
-      return [entries].flat().slice(0,35).flatMap(e=>{
+      return [entries].flat().slice(0,250).flatMap(e=>{
         const description=plain(field(e.description ?? e.summary));
         const title=plain(field(e.title)) || (description.length>130 ? description.slice(0,127).trimEnd()+"…" : description);
         const date=Date.parse(field(e.pubDate ?? e.published ?? e.updated ?? e['dc:date']));
@@ -84,7 +84,7 @@ async function fetchFeed(source:typeof sources[number]){
         if(allowedHost){
           const article=new URL(url);
           if(article.hostname!==allowedHost&&!article.hostname.endsWith('.'+allowedHost))return [];
-          if(allowedHost==='ynet.co.il'&&!article.pathname.startsWith('/sport/'))return [];
+          if(source.id==='ynet-sport'&&!article.pathname.startsWith('/sport/'))return [];
         }
         const settings=source as typeof source & {headlineMatch?:string;localMatch?:string;headlineOnly?:boolean};
         if([settings.headlineMatch,settings.localMatch].some(pattern=>pattern && !new RegExp(pattern, "iu").test(title)))return [];
@@ -92,7 +92,7 @@ async function fetchFeed(source:typeof sources[number]){
         const thumbnail=source.id.startsWith('yt-') ? [e['media:group']?.['media:thumbnail']].flat()[0]?.['@_url'] : undefined;
         const image=typeof thumbnail==='string' && /^https:\/\/i[1-4]?\.ytimg\.com\//.test(thumbnail)?thumbnail:undefined;
         return [{title,topic:source.topic,coverage:{url,source:source.id,publisher:source.attribution,image,reported:new Date(date).toISOString(),excerpt:excerpt.length>260?excerpt.slice(0,257).trimEnd()+'…':excerpt}}];
-      });
+      }).slice(0,35);
     } catch {
       if(attempt===0)await new Promise(r=>setTimeout(r,800));
     }
