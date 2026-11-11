@@ -1,33 +1,33 @@
 [
   {
-    "id": "world",
-    "name": "World & Geopolitics",
-    "enabled": true
-  },
-  {
     "id": "politics",
-    "name": "Politics & Government",
-    "enabled": true
-  },
-  {
-    "id": "finance",
-    "name": "Finance & Markets",
+    "name": "פוליטיקה",
     "enabled": true
   },
   {
     "id": "technology",
-    "name": "Technology & AI",
+    "name": "טכנולוגיה ו AI",
     "enabled": true
   },
   {
-    "id": "space",
-    "name": "Space & Astronomy",
+    "id": "finance",
+    "name": "כלכלה ומסחר",
     "enabled": true
   },
   {
     "id": "sports",
-    "name": "Sports",
+    "name": "ספורט",
     "enabled": true
+  },
+  {
+    "id": "space",
+    "name": "חלל",
+    "enabled": true
+  },
+  {
+    "id": "world",
+    "name": "World & Geopolitics",
+    "enabled": false
   },
   {
     "id": "economy",

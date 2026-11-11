@@ -47,3 +47,9 @@ YouTube (NASA and BBC News), Bluesky (The Verge) and Mastodon (ESA) use public f
 The Israel edition displays Hebrew headlines and right-to-left briefings. English-language Israeli sources remain available in All coverage, Search and the archive. This is source-language selection. There is no automatic translation.
 
 Automated Instagram, TikTok and X ingestion is not configured. Start with the public handles or individual post links you want to follow. Any required developer credentials belong in GitHub Actions secrets.
+
+Cards consolidate matching or very similar headlines within the same topic and retain links to the contributing reports. Different headlines can still describe the same event and remain separate. YouTube thumbnails use the image supplied by the channel feed.
+
+### Hebrew translation
+
+The combined feed shows native Hebrew stories and cached Hebrew translations. To automatically translate more headlines and excerpts, enable Google Cloud Translation Basic and add GOOGLE_TRANSLATE_API_KEY as a GitHub Actions repository secret. For local refresh, export the same variable in your shell. Each run translates up to 120 uncached strings, newest first. If the service is unavailable, the refresh retains prior translations and publishes native Hebrew stories. Original links can lead to other languages.

@@ -1,15 +1,19 @@
 ---
 import {url,stamp,topicName,mainIdea,storyEditions,inHebrew,sourcePlatform,type Story} from '../lib';
-const {story:s,lead=false,featured=false}=Astro.props as {story:Story;lead?:boolean;featured?:boolean};
+const {story:s,lead=false}=Astro.props as {story:Story;lead?:boolean};
 const hebrew=inHebrew(s.title);
 const idea=mainIdea(s);
+const local=storyEditions(s).includes("israel");
+const original=s.coverage[0]?.url;
+const image=s.coverage.find(c=>c.image)?.image;
 const platform=sourcePlatform(s.coverage[0]?.source);
-const hebrewTopics:Record<string,string>={world:'עולם וגאופוליטיקה',politics:'פוליטיקה וממשל',finance:'כלכלה ושווקים',technology:'טכנולוגיה ובינה מלאכותית',space:'חלל ואסטרונומיה',sports:'ספורט'};
 const symbols:Record<string,string>={world:'◎',politics:'◇',finance:'↗',technology:'✳',space:'✦',sports:'◈'};
 ---
 <article class:list={['story','post',{lead}]} data-story lang={hebrew?"he":"en"} dir={hebrew?"rtl":"ltr"} data-hebrew={hebrew?"1":"0"} data-topic={s.topic} data-editions={storyEditions(s).join(" ")} data-reported={s.reported} data-date={s.reported.slice(0,10)} data-source={s.coverage.map(x=>x.source).join(' ')} data-search={[s.title,topicName(s.topic),...s.coverage.flatMap(x=>[x.publisher,x.excerpt])].join(' ').toLowerCase()}>
-<div class="post-top"><span class="avatar" aria-hidden="true">{symbols[s.topic] ?? '◇'}</span><div><strong>{s.coverage[0]?.publisher}{platform && platform!=="RSS" && " · "+platform}</strong><div class="meta"><time datetime={s.reported}>{stamp(s.reported)}</time></div></div>{featured && <span class="featured">{hebrew ? "תקציר יומי" : "Daily Brief"}</span>}</div>
-<a class="eyebrow topic-link" href={url('topic/'+s.topic)}>{hebrew ? hebrewTopics[s.topic] ?? topicName(s.topic) : topicName(s.topic)}</a>
+<div class="post-top"><span class="avatar" aria-hidden="true">{symbols[s.topic] ?? '◇'}</span><div><strong><span class="region-icon" role="img" aria-label={local?"ישראל":"עולמי"}>{local?"🇮🇱":"🌐"}</span> {s.coverage[0]?.publisher}{platform && platform!=="RSS" && " · "+platform}</strong><div class="meta"><time datetime={s.reported}>{stamp(s.reported)}</time></div></div></div>
+<a class="eyebrow topic-link" href={url('topic/'+s.topic)}>{topicName(s.topic)}</a>
 <h3><a class="post-link" href={url('story/'+s.id)}><bdi>{s.title}</bdi></a></h3>{idea && <p>{idea}</p>}
-<div class="post-bottom"><span>{hebrew ? (idea?'מתוך המקור':'כותרת המקור') : (idea?'Source excerpt':'Source headline')}</span><span aria-hidden="true">{hebrew ? "לפרטי הידיעה ↖" : "Read briefing ↗"}</span></div>
+{image && <img class="post-image" src={image} alt="" loading="lazy" decoding="async"/>}
+{s.coverage.length>1 && <ul class="coverage-links" aria-label={hebrew?'מקורות נוספים':'מקורות הידיעה'}>{s.coverage.filter((c,i,all)=>all.findIndex(x=>x.url===c.url)===i).map(c=><li><a href={c.url}><bdi>{c.publisher}{sourcePlatform(c.source)?' · '+sourcePlatform(c.source):''}</bdi> ↗</a></li>)}</ul>}
+<div class="post-bottom"><span>{hebrew ? (idea?'מתוך המקור':'כותרת המקור') : (idea?'מתוך המקור':'כותרת המקור')}</span>{original && <a class="card-original" href={original}>לפרטי הידיעה ↖</a>}</div>
 </article>

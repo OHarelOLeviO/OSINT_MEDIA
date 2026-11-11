@@ -7,14 +7,13 @@ const hebrew=inHebrew(s.title);
 const text=(en:string,he:string)=>hebrew?he:en;
 const primary=s.coverage[0];
 const excerpt=primary?.excerpt && (!hebrew||inHebrew(primary.excerpt)) && primary.excerpt!==s.title ? primary.excerpt : '';
-const topics:Record<string,string>={world:'עולם וגאופוליטיקה',politics:'פוליטיקה וממשל',finance:'כלכלה ושווקים',technology:'טכנולוגיה ובינה מלאכותית',space:'חלל ואסטרונומיה',sports:'ספורט'};
 const date=(date:string)=>hebrew ? new Intl.DateTimeFormat('he-IL',{dateStyle:'medium',timeStyle:'short',timeZone:'UTC'}).format(new Date(date))+' UTC' : stamp(date);
 ---
 <Shell title={s.title}>
 <div lang={hebrew?'he':'en'} dir={hebrew?'rtl':'ltr'}>
-<div class="intro"><a class="eyebrow" href={url('topic/'+s.topic)}>{hebrew?topics[s.topic]??topicName(s.topic):topicName(s.topic)}</a><h1>{s.title}</h1><p class="meta"><bdi>{primary?.publisher}{sourcePlatform(primary?.source) && ' · '+sourcePlatform(primary.source)}</bdi> · <bdi>{date(s.reported)}</bdi></p></div>
-<section class="story" aria-labelledby="brief-heading">
-<h2 id="brief-heading">{text('Briefing','תקציר הידיעה')}</h2>
+<div class="intro"><a class="eyebrow" href={url('topic/'+s.topic)}>{topicName(s.topic)}</a><h1>{s.title}</h1><p class="meta"><bdi>{primary?.publisher}{sourcePlatform(primary?.source) && ' · '+sourcePlatform(primary.source)}</bdi> · <bdi>{date(s.reported)}</bdi></p></div>
+<section class="story" aria-label={text("Story details","פרטי הידיעה")}>
+{s.coverage.find(c=>c.image)?.image && <img class="post-image" src={s.coverage.find(c=>c.image)?.image} alt="" decoding="async"/>}
 <p class="brief-body">{excerpt || text('Only the source headline is available here. Open the original for the full story.','כאן זמינה כותרת המקור בלבד. לקריאת הידיעה המלאה, פתחו את המקור.')}</p>
 {excerpt && <div class="meta">{text('Excerpt from','מתוך')} <bdi>{primary.publisher}</bdi></div>}
 {primary && <a class="original-link" href={primary.url}>{sourcePlatform(primary.source)==='YouTube'?text('Watch on YouTube ↗','לצפייה ביוטיוב ↖'):text('Open original ↗','לפתיחת המקור ↖')}</a>}

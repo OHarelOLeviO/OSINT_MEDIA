@@ -2,4 +2,4 @@
 import Shell from '../../layouts/Shell.astro';
 import {data,url,day} from '../../lib';
 ---
-<Shell title="Archive"><div class="intro"><h1>Archive</h1><p class="deck">Browse earlier editions by publication date.</p></div>{Object.keys(data.briefs).length ? Object.keys(data.briefs).sort().reverse().map(date=><article class="story"><h3><a href={url('archive/'+date)}>{day(date)} ↗</a></h3></article>) : <p>No editions have been published yet.</p>}</Shell>
+<Shell title="ארכיון"><div class="intro"><h1>ארכיון</h1><p class="deck">מהדורות קודמות לפי תאריך פרסום.</p></div>{Object.keys(data.briefs).length ? Object.keys(data.briefs).sort().reverse().map(date=><article class="story"><h3><a href={url('archive/'+date)}>{day(date)} ↗</a></h3></article>) : <p>עדיין אין מהדורות בארכיון.</p>}</Shell>

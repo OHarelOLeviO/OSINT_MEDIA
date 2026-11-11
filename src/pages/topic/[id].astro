@@ -1,17 +1,16 @@
 ---
 import Shell from '../../layouts/Shell.astro';
 import Story from '../../components/Story.astro';
-import {topics,stories,sources,data,summary,editions,sourceEdition} from '../../lib';
+import {topics,stories,sources,data,summary} from '../../lib';
 export function getStaticPaths(){return topics.map(t=>({params:{id:t.id},props:{topic:t}}))}
 const {topic}=Astro.props;
 const items=stories.filter(s=>s.topic===topic.id);
 const feeds=sources.filter(s=>s.enabled && s.topic===topic.id);
 ---
-<Shell title={topic.name}><div class="intro"><p class="eyebrow">Topic briefing</p><h1>{topic.name}</h1>{items[0] && <p class="deck" id="topic-brief">{summary(items[0])} <small>— {items[0].coverage[0]?.publisher}</small></p>}</div>
-{feeds.some(s=>data.feeds[s.id]?.ok===false) && <p class="notice">Feed refresh failed for {feeds.filter(s=>data.feeds[s.id]?.ok===false).map(s=>s.publisher).join(', ')}. Earlier coverage is still available.</p>}
-<form class="filters"><label>Edition <select id="edition"><option value="">All coverage</option>{editions.map(e=><option value={e.id}>{e.name}</option>)}</select></label><label>Date <input id="date" type="date"/></label><label>Source <select id="source"><option value="">All sources</option>{feeds.map(s=><option value={s.id} data-edition={sourceEdition(s.id)}>{s.publisher}</option>)}</select></label></form>
-<p id="empty" role="status" hidden={items.length>0}>No stories match this view.</p>{items.map(s=><Story story={s}/>)}</Shell>
-<script>const date=document.querySelector<HTMLInputElement>('#date')!,source=document.querySelector<HTMLSelectElement>('#source')!; const edition=document.querySelector<HTMLSelectElement>("#edition")!; function filter(){const brief=document.querySelector<HTMLElement>("#topic-brief");if(brief)brief.hidden=!!edition.value;for(const option of source.options)option.hidden=!!(edition.value && option.value && option.dataset.edition!==edition.value);if(source.selectedOptions[0]?.hidden)source.value="";let count=0;for(const row of document.querySelectorAll<HTMLElement>('[data-story]')){row.hidden=!!((edition.value&&(!row.dataset.editions?.split(" ").includes(edition.value)||(edition.value==="israel"&&row.dataset.hebrew!=="1")))||(date.value&&row.dataset.date!==date.value)||(source.value&&!row.dataset.source?.split(' ').includes(source.value)));if(!row.hidden) count++;}const empty=document.querySelector<HTMLElement>('#empty')!;
+<Shell title={topic.name}><div class="intro"><p class="eyebrow">עדכונים לפי נושא</p><h1>{topic.name}</h1>{items[0] && <p class="deck" id="topic-brief">{summary(items[0])} <small>— {items[0].coverage[0]?.publisher}</small></p>}</div>
+{feeds.some(s=>data.feeds[s.id]?.ok===false) && <p class="notice">עדכון המקורות נכשל עבור {feeds.filter(s=>data.feeds[s.id]?.ok===false).map(s=>s.publisher).join(', ')}. ידיעות קודמות עדיין זמינות.</p>}
+<form class="filters"><label>תאריך <input id="date" type="date"/></label><label>מקור <select id="source"><option value="">כל המקורות</option>{feeds.map(s=><option value={s.id}>{s.publisher}</option>)}</select></label></form>
+<p id="empty" role="status" hidden={items.length>0}>אין כרגע ידיעות בתצוגה זו.</p>{items.map(s=><Story story={s}/>)}</Shell>
+<script>const date=document.querySelector<HTMLInputElement>('#date')!,source=document.querySelector<HTMLSelectElement>('#source')!; function filter(){let count=0;for(const row of document.querySelectorAll<HTMLElement>('[data-story]')){row.hidden=!!((date.value&&row.dataset.date!==date.value)||(source.value&&!row.dataset.source?.split(' ').includes(source.value)));if(!row.hidden) count++;}const empty=document.querySelector<HTMLElement>('#empty')!;
 empty.hidden=count>0;
-empty.textContent=edition.value==="israel"?"אין כרגע ידיעות בעברית בתצוגה זו.":"No stories match this view.";
-empty.dir=edition.value==="israel"?"rtl":"ltr";}date.addEventListener('input',filter);source.addEventListener('change',filter);edition.addEventListener('change',filter);</script>
+empty.dir=edition.value==="israel"?"rtl":"ltr";}date.addEventListener('input',filter);source.addEventListener('change',filter);</script>

@@ -29,14 +29,25 @@ function canonical(raw:string,base:string) {
   } catch { return; }
 }
 const key = (title:string)=>title.normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
-export function merge(stories:Story[], item:{title:string;topic:string;coverage:Coverage}) {
+function matchingHeadline(a:string,b:string){
+  if(key(a)===key(b))return true;
+  const words=(value:string)=>new Set(key(value).split(' ').filter(w=>w.length>=3));
+  const first=words(a),second=words(b);
+  const common=[...first].filter(w=>second.has(w)).length;
+  return common>=6 && common/Math.max(first.size,second.size)>=0.88;
+}
+export function merge(stories:Story[], item:{title:string;topic:string;coverage:Coverage}, original?:Story):Story {
   const c=item.coverage;
-  const prior=stories.find(s=>s.topic===item.topic && s.coverage.some(x=>x.url===c.url)) ?? stories.find(s=>s.topic===item.topic && key(s.title)===key(item.title) && Math.abs(Date.parse(s.reported)-Date.parse(c.reported))<=72*3600_000);
+  const prior=stories.find(s=>s.topic===item.topic && s.coverage.some(x=>x.url===c.url)) ?? stories.find(s=>s.topic===item.topic && matchingHeadline(s.title,item.title) && Math.abs(Date.parse(s.reported)-Date.parse(c.reported))<=72*3600_000);
   if(!prior){
-    stories.push({id:digest(item.topic+":"+c.url),title:item.title,topic:item.topic,reported:c.reported,coverage:[c]});
-    return;
+    const story=original ?? {id:digest(item.topic+":"+c.url),title:item.title,topic:item.topic,reported:c.reported,coverage:[c]};
+    stories.push(story);
+    return story;
   }
-  if(!prior.coverage.some(x=>x.url===c.url && x.source===c.source))prior.coverage.push(c);
+  const previous=prior.coverage.find(x=>x.url===c.url&&x.source===c.source);
+  if(!previous)prior.coverage.push(c);
+  else if(c.image)previous.image=c.image;
+  return prior;
 }
 async function fetchFeed(source:typeof sources[number]){
   for(let attempt=0;attempt<2;attempt++){
@@ -59,7 +70,9 @@ async function fetchFeed(source:typeof sources[number]){
         const settings=source as typeof source & {headlineMatch?:string;localMatch?:string;headlineOnly?:boolean};
         if([settings.headlineMatch,settings.localMatch].some(pattern=>pattern && !new RegExp(pattern, "iu").test(title)))return [];
         const excerpt=settings.headlineOnly ? "" : description;
-        return [{title,topic:source.topic,coverage:{url,source:source.id,publisher:source.attribution,reported:new Date(date).toISOString(),excerpt:excerpt.length>260?excerpt.slice(0,257).trimEnd()+'…':excerpt}}];
+        const thumbnail=source.id.startsWith('yt-') ? [e['media:group']?.['media:thumbnail']].flat()[0]?.['@_url'] : undefined;
+        const image=typeof thumbnail==='string' && /^https:\/\/i[1-4]?\.ytimg\.com\//.test(thumbnail)?thumbnail:undefined;
+        return [{title,topic:source.topic,coverage:{url,source:source.id,publisher:source.attribution,image,reported:new Date(date).toISOString(),excerpt:excerpt.length>260?excerpt.slice(0,257).trimEnd()+'…':excerpt}}];
       });
     } catch {
       if(attempt===0)await new Promise(r=>setTimeout(r,800));
@@ -67,8 +80,45 @@ async function fetchFeed(source:typeof sources[number]){
   }
   return null;
 }
+async function translateHebrew(state:Dataset){
+  const apiKey=process.env.GOOGLE_TRANSLATE_API_KEY;
+  if(!apiKey)return;
+  const cache=state.hebrew ??= {};
+  const activeTopics=new Set(topics.filter(t=>t.enabled).map(t=>t.id));
+  const pending=[...new Set([...state.stories].sort((a,b)=>b.reported.localeCompare(a.reported))
+    .filter(s=>activeTopics.has(s.topic)).flatMap(s=>[s.title,...s.coverage.map(c=>c.excerpt)]))]
+    .filter(value=>value && !/[א-ת]/u.test(value) && !Object.hasOwn(cache,value)).slice(0,120);
+  const endpoint=new URL('https://translation.googleapis.com/language/translate/v2');
+  endpoint.searchParams.set('key',apiKey);
+  for(let i=0;i<pending.length;i+=16){
+    const batch=pending.slice(i,i+16);
+    try{
+      const result=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({q:batch,target:'he',format:'text'}),signal:AbortSignal.timeout(12000)});
+      if(!result.ok){console.log('Hebrew translation unavailable (HTTP '+result.status+')');return;}
+      const translations=(await result.json())?.data?.translations;
+      if(!Array.isArray(translations)||translations.length!==batch.length)return;
+      for(const [j,entry] of translations.entries()){
+        const value=typeof entry?.translatedText==='string'?plain(entry.translatedText):'';
+        if(/[א-ת]/u.test(value))Object.defineProperty(cache,batch[j],{value,enumerable:true,configurable:true,writable:true});
+      }
+    }catch{console.log('Hebrew translation unavailable');return;}
+  }
+}
 async function refresh(){
   const state=JSON.parse(await readFile(target,'utf8')) as Dataset;
+  const consolidated:Story[]=[];
+  const aliases=new Map<string,string>();
+  for(const story of state.stories){
+    const [first,...rest]=story.coverage;
+    if(!first)continue;
+    const target=merge(consolidated,{title:story.title,topic:story.topic,coverage:first},story);
+    for(const coverage of rest){
+      if(!target.coverage.some(c=>c.url===coverage.url&&c.source===coverage.source))target.coverage.push(coverage);
+    }
+    aliases.set(story.id,target.id);
+  }
+  state.stories=consolidated;
+  for(const [date,ids] of Object.entries(state.briefs))state.briefs[date]=[...new Set(ids.map(id=>aliases.get(id)??id))];
   const active=sources.filter(s=>s.enabled && topics.some(t=>t.enabled&&t.id===s.topic));
   const results=await Promise.all(active.map(fetchFeed));
   const now=new Date().toISOString();
@@ -88,6 +138,7 @@ async function refresh(){
     const ids=[...new Set([...lead,...recent].map(s=>s.id))].slice(0,5);
     if(ids.length)state.briefs[now.slice(0,10)]=ids;
   }
+  await translateHebrew(state);
   const temporary=new URL('./live.next.json',target);
   await writeFile(temporary,JSON.stringify(state,null,2)+'\n');
   await rename(temporary,target);

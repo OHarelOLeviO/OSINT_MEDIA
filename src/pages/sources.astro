@@ -1,5 +1,5 @@
 ---
 import Shell from '../layouts/Shell.astro';
-import {sources,topicName,data,stamp,sourceEdition} from '../lib';
+import {sources,topicName,data,stamp,sourceEdition,topics} from '../lib';
 ---
-<Shell title="Sources"><div class="intro"><h1>Sources</h1><p class="deck">Publishers and feeds used to compile the briefing.</p></div>{sources.filter(s=>s.enabled).map(s=><article class="story"><p class="eyebrow">{topicName(s.topic)} · {sourceEdition(s.id)==="israel"?"Israel":"Global"}</p><h3>{s.publisher}</h3><a href={s.url}>{s.method} feed ↗</a><p class="meta">{data.feeds[s.id]?.ok===false?'Refresh failed':data.feeds[s.id]?.ok?'Available':'Awaiting refresh'}{data.feeds[s.id]?.lastSuccess && ' · '+stamp(data.feeds[s.id].lastSuccess!)}</p></article>)}</Shell>
+<Shell title="מקורות"><div class="intro"><h1>מקורות</h1><p class="deck">המקורות שמהם נאספות הידיעות.</p></div>{sources.filter(s=>s.enabled && topics.some(t=>t.id===s.topic)).map(s=><article class="story"><p class="eyebrow">{topicName(s.topic)} · {sourceEdition(s.id)==="israel"?"ישראל":"עולמי"}</p><h3>{s.publisher}</h3><a href={s.url}>{s.method} · ערוץ עדכונים ↖</a><p class="meta">{data.feeds[s.id]?.ok===false?'העדכון נכשל':data.feeds[s.id]?.ok?'זמין':'ממתין לעדכון'}{data.feeds[s.id]?.lastSuccess && ' · '+stamp(data.feeds[s.id].lastSuccess!)}</p></article>)}</Shell>
