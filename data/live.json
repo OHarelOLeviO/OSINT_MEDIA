@@ -1,5 +1,5 @@
 {
-  "refreshed": "2026-11-11T22:11:46.979Z",
+  "refreshed": "2026-11-11T22:43:52.958Z",
   "stories": [
     {
       "id": "3711f11171cc5d8fdf27",
@@ -7970,6 +7970,58 @@
           "excerpt": ""
         }
       ]
+    },
+    {
+      "id": "6cf5822bf313e03ab853",
+      "title": "על הבאזר: 109:111 מטורף לפריז על פנרבחצ`ה",
+      "topic": "sports",
+      "reported": "2026-11-11T21:19:08.000Z",
+      "coverage": [
+        {
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=567353",
+          "source": "sport5",
+          "publisher": "ספורט 5",
+          "reported": "2026-11-11T21:19:08.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "d9a5d2acc0c82ae7edc8",
+      "title": "בתום הארכה: פאריס ניצחה את פנרבחצ'ה עם הבאזר",
+      "topic": "sports",
+      "reported": "2026-11-11T22:15:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/538657.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-11T22:15:00.000Z",
+          "excerpt": ""
+        },
+        {
+          "url": "https://www.ynet.co.il/sport/article/one538657",
+          "source": "ynet-sport",
+          "publisher": "ynet ספורט",
+          "reported": "2026-11-11T22:17:38.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "3541c69bfe84d4e6c664",
+      "title": "סל ניצחון לחיפי מול פנרבחצ'ה, פרטיזן גברה על באסקוניה",
+      "topic": "sports",
+      "reported": "2026-11-11T22:24:35.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/world-basketball/article/1995431/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-11T22:24:35.000Z",
+          "excerpt": ""
+        }
+      ]
     }
   ],
   "briefs": {
@@ -7984,75 +8036,75 @@
   "feeds": {
     "ynet-news": {
       "ok": true,
-      "lastSuccess": "2026-11-11T22:11:46.979Z"
+      "lastSuccess": "2026-11-11T22:43:52.958Z"
     },
     "ynet-finance": {
       "ok": true,
-      "lastSuccess": "2026-11-11T22:11:46.979Z"
+      "lastSuccess": "2026-11-11T22:43:52.958Z"
     },
     "ynet-tech": {
       "ok": true,
-      "lastSuccess": "2026-11-11T22:11:46.979Z"
+      "lastSuccess": "2026-11-11T22:43:52.958Z"
     },
     "ynet-sport": {
       "ok": true,
-      "lastSuccess": "2026-11-11T22:11:46.979Z"
+      "lastSuccess": "2026-11-11T22:43:52.958Z"
     },
     "israelhayom": {
       "ok": true,
-      "lastSuccess": "2026-11-11T22:11:46.979Z"
+      "lastSuccess": "2026-11-11T22:43:52.958Z"
     },
     "sport5": {
       "ok": true,
-      "lastSuccess": "2026-11-11T22:11:46.979Z"
+      "lastSuccess": "2026-11-11T22:43:52.958Z"
     },
     "one-sport": {
       "ok": true,
-      "lastSuccess": "2026-11-11T22:11:46.979Z"
+      "lastSuccess": "2026-11-11T22:43:52.958Z"
     },
     "sport1": {
       "ok": true,
-      "lastSuccess": "2026-11-11T22:11:46.979Z"
+      "lastSuccess": "2026-11-11T22:43:52.958Z"
     },
     "walla-sport": {
       "ok": true,
-      "lastSuccess": "2026-11-11T22:11:46.979Z"
+      "lastSuccess": "2026-11-11T22:43:52.958Z"
     },
     "n12-politics": {
       "ok": true,
-      "lastSuccess": "2026-11-11T22:11:46.979Z"
+      "lastSuccess": "2026-11-11T22:43:52.958Z"
     },
     "n12-finance": {
       "ok": true,
-      "lastSuccess": "2026-11-11T22:11:46.979Z"
+      "lastSuccess": "2026-11-11T22:43:52.958Z"
     },
     "ynet-space": {
       "ok": true,
-      "lastSuccess": "2026-11-11T22:11:46.979Z"
+      "lastSuccess": "2026-11-11T22:43:52.958Z"
     },
     "walla-politics": {
       "ok": true,
-      "lastSuccess": "2026-11-11T22:11:46.979Z"
+      "lastSuccess": "2026-11-11T22:43:52.958Z"
     },
     "walla-tech": {
       "ok": true,
-      "lastSuccess": "2026-11-11T22:11:46.979Z"
+      "lastSuccess": "2026-11-11T22:43:52.958Z"
     },
     "walla-finance": {
       "ok": true,
-      "lastSuccess": "2026-11-11T22:11:46.979Z"
+      "lastSuccess": "2026-11-11T22:43:52.958Z"
     },
     "haaretz": {
       "ok": true,
-      "lastSuccess": "2026-11-11T22:11:46.979Z"
+      "lastSuccess": "2026-11-11T22:43:52.958Z"
     },
     "c14": {
-      "ok": true,
+      "ok": false,
       "lastSuccess": "2026-11-11T22:11:46.979Z"
     },
     "i24-he": {
       "ok": true,
-      "lastSuccess": "2026-11-11T22:11:46.979Z"
+      "lastSuccess": "2026-11-11T22:43:52.958Z"
     }
   },
   "hebrew": {
