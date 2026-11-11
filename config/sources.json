@@ -63,15 +63,6 @@
     "enabled": true
   },
   {
-    "id": "bbc-sport",
-    "publisher": "BBC Sport",
-    "topic": "sports",
-    "url": "https://feeds.bbci.co.uk/sport/rss.xml",
-    "method": "RSS",
-    "attribution": "BBC Sport",
-    "enabled": true
-  },
-  {
     "id": "un",
     "publisher": "UN News",
     "topic": "world",
@@ -102,17 +93,6 @@
     "headlineOnly": true,
     "method": "RSS / Atom",
     "attribution": "The Verge",
-    "enabled": true
-  },
-  {
-    "id": "espn",
-    "publisher": "ESPN",
-    "topic": "sports",
-    "url": "https://www.espn.com/espn/rss/news",
-    "edition": "global",
-    "headlineOnly": true,
-    "method": "RSS / Atom",
-    "attribution": "ESPN",
     "enabled": true
   },
   {
@@ -181,18 +161,6 @@
     "url": "https://www.ynet.co.il/Integration/StoryRss544.xml",
     "edition": "israel",
     "headlineMatch": "ישראל|תל אביב|הייטק הישראלי",
-    "headlineOnly": true,
-    "method": "RSS / Atom",
-    "attribution": "Ynet",
-    "enabled": true
-  },
-  {
-    "id": "ynet-sport",
-    "publisher": "Ynet",
-    "topic": "sports",
-    "url": "https://www.ynet.co.il/Integration/StoryRss3.xml",
-    "edition": "israel",
-    "headlineMatch": "ישראל|מכבי|הפועל|בית\"ר|בית״ר|ליגת העל|נבחרת הנשים",
     "headlineOnly": true,
     "method": "RSS / Atom",
     "attribution": "Ynet",
@@ -282,6 +250,66 @@
     "method": "RSS",
     "headlineOnly": true,
     "attribution": "Israel Hayom",
+    "enabled": true
+  },
+  {
+    "id": "sport5",
+    "publisher": "ספורט 5",
+    "topic": "sports",
+    "url": "https://www.sport5.co.il/sitemap/articles/news-sitemap.xml",
+    "method": "מפת חדשות",
+    "articleHost": "sport5.co.il",
+    "edition": "israel",
+    "headlineOnly": true,
+    "attribution": "ספורט 5",
+    "enabled": true
+  },
+  {
+    "id": "one-sport",
+    "publisher": "ONE",
+    "topic": "sports",
+    "url": "https://www.one.co.il/rss",
+    "method": "RSS",
+    "articleHost": "one.co.il",
+    "edition": "israel",
+    "headlineOnly": true,
+    "attribution": "ONE",
+    "enabled": true
+  },
+  {
+    "id": "sport1",
+    "publisher": "ספורט 1",
+    "topic": "sports",
+    "url": "https://sport1.maariv.co.il/wp-json/wp/v2/posts?per_page=35&_fields=link,title,date_gmt",
+    "method": "WordPress API",
+    "articleHost": "sport1.maariv.co.il",
+    "edition": "israel",
+    "headlineOnly": true,
+    "attribution": "ספורט 1",
+    "enabled": true
+  },
+  {
+    "id": "walla-sport",
+    "publisher": "וואלה ספורט",
+    "topic": "sports",
+    "url": "https://rss.walla.co.il/feed/7",
+    "method": "RSS",
+    "articleHost": "sports.walla.co.il",
+    "edition": "israel",
+    "headlineOnly": true,
+    "attribution": "וואלה ספורט",
+    "enabled": true
+  },
+  {
+    "id": "ynet-sport",
+    "publisher": "ynet ספורט",
+    "topic": "sports",
+    "url": "https://www.ynet.co.il/Integration/StoryRss3.xml",
+    "method": "RSS",
+    "articleHost": "ynet.co.il",
+    "edition": "israel",
+    "headlineOnly": true,
+    "attribution": "ynet ספורט",
     "enabled": true
   }
 ]

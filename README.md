@@ -53,3 +53,5 @@ Cards consolidate matching or very similar headlines within the same topic and r
 ### Hebrew translation
 
 The combined feed shows native Hebrew stories and cached Hebrew translations. To automatically translate more headlines and excerpts, enable Google Cloud Translation Basic and add GOOGLE_TRANSLATE_API_KEY as a GitHub Actions repository secret. For local refresh, export the same variable in your shell. Each run translates up to 120 uncached strings, newest first. If the service is unavailable, the refresh retains prior translations and publishes native Hebrew stories. Original links can lead to other languages.
+
+The Sports topic uses only Sport5 (news sitemap), ONE (RSS), Sport1 / Maariv (public WordPress API), Walla Sports (RSS), and Ynet Sports (RSS). The dashboard publishes headlines, timestamps, publisher credit, and original links.
