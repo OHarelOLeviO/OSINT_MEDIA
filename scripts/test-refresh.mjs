@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+process.env.DISPATCH_TEST='1';
+const {merge}=await import('./refresh.ts');
+const date='2026-11-11T10:00:00.000Z';
+const stories=[];
+const add=(title,url,source)=>merge(stories,{title,topic:'world',coverage:{source,url,reported:date,publisher:source,excerpt:''}});
+add('Markets open higher','https://example.org/a','one');
+add('Markets open higher!','https://example.net/b','two');
+add('A revised headline','https://example.org/a','one');
+assert.equal(stories.length,1);
+assert.equal(stories[0].coverage.length,2);
+console.log('Canonical URL and normalized-headline merge checks passed.');

@@ -1,0 +1,54 @@
+---
+import Shell from '../layouts/Shell.astro';
+import Story from '../components/Story.astro';
+import {data,stories,topics,day,editions} from '../lib';
+const date=Object.keys(data.briefs).sort().at(-1);
+const leads=new Set(date ? data.briefs[date] : []);
+const feed=[...stories.filter(s=>leads.has(s.id)),...stories.filter(s=>!leads.has(s.id))];
+---
+<Shell title="The Feed">
+<div class="intro"><p class="eyebrow">{date ? day(date) : 'First edition pending'}</p><h1>The Feed<span>.</span></h1><p class="deck">Follow the latest developments across every topic.</p></div>
+<div class="edition-tabs" role="group" aria-label="Coverage edition"><button data-edition="all" aria-pressed="true">All coverage</button>{editions.map(e=><button data-edition={e.id} aria-pressed="false">{e.name}</button>)}</div>
+<div class="filters chips" role="group" aria-label="Filter feed"><button data-filter="all" aria-pressed="true">Daily Brief</button><button data-filter="latest" aria-pressed="false">Latest</button>{topics.map(t=><button data-filter={t.id} aria-pressed="false">{t.name.split(' & ')[0]}</button>)}</div>
+<section id="feed" aria-label="Story feed">{feed.map((s,i)=><Story story={s} lead={i===0} featured={leads.has(s.id)}/>)}</section>
+<p id="feed-empty" role="status" hidden={feed.length>0}>No stories available for this view.</p>
+<div id="feed-end"><button id="more" hidden>Load more stories</button></div>
+</Shell>
+<script>
+const feed=document.querySelector('#feed')!;
+const ranked=[...feed.querySelectorAll<HTMLElement>('[data-story]')];
+const latest=[...ranked].sort((a,b)=>b.dataset.reported!.localeCompare(a.dataset.reported!));
+const buttons=[...document.querySelectorAll<HTMLButtonElement>('[data-filter]')];
+const more=document.querySelector<HTMLButtonElement>('#more')!;
+const empty=document.querySelector<HTMLElement>("#feed-empty")!;
+const editionButtons=[...document.querySelectorAll<HTMLButtonElement>('[data-edition]')];
+let filter='all', edition='all', limit=16;
+function render(){
+ let count=0;
+ for(const row of filter==='all'?ranked:latest){
+   const match=(filter==='all'||filter==='latest'||row.dataset.topic===filter) && (edition==='all'||row.dataset.editions?.split(' ').includes(edition) && (edition!=='israel'||row.dataset.hebrew==='1'));
+   row.hidden=!match||count>=limit;
+   if(match)count++;
+   row.classList.toggle('lead',filter==='all'&&row===ranked[0]);
+   feed.append(row);
+ }
+ document.querySelector<HTMLElement>('#feed-empty')!.hidden=count>0;
+ more.hidden=count<=limit;
+}
+function load(){if(!more.hidden){limit+=16;render();}}
+for(const button of buttons)button.addEventListener('click',()=>{
+ filter=button.dataset.filter!;limit=16;
+ for(const choice of buttons)choice.setAttribute('aria-pressed',String(choice===button));
+ render();
+});
+for(const button of editionButtons)button.addEventListener('click',()=>{
+ edition=button.dataset.edition!;limit=16;
+ for(const choice of editionButtons)choice.setAttribute('aria-pressed',String(choice===button));
+ empty.textContent=edition==='israel'?'אין כרגע ידיעות בעברית בתצוגה זו.':'No stories available for this view.';
+ empty.dir=edition==='israel'?'rtl':'ltr';
+ render();
+});
+more.addEventListener('click',load);
+render();
+if('IntersectionObserver' in window)new IntersectionObserver(entries=>{if(entries.some(entry=>entry.isIntersecting))load();},{rootMargin:'200px'}).observe(document.querySelector('#feed-end')!);
+</script>

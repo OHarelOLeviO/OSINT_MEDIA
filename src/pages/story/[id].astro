@@ -1,0 +1,25 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import {stories,topicName,stamp,url,inHebrew,sourcePlatform} from '../../lib';
+export function getStaticPaths(){return stories.map(s=>({params:{id:s.id},props:{s}}))}
+const {s}=Astro.props;
+const hebrew=inHebrew(s.title);
+const text=(en:string,he:string)=>hebrew?he:en;
+const primary=s.coverage[0];
+const excerpt=primary?.excerpt && (!hebrew||inHebrew(primary.excerpt)) && primary.excerpt!==s.title ? primary.excerpt : '';
+const topics:Record<string,string>={world:'עולם וגאופוליטיקה',politics:'פוליטיקה וממשל',finance:'כלכלה ושווקים',technology:'טכנולוגיה ובינה מלאכותית',space:'חלל ואסטרונומיה',sports:'ספורט'};
+const date=(date:string)=>hebrew ? new Intl.DateTimeFormat('he-IL',{dateStyle:'medium',timeStyle:'short',timeZone:'UTC'}).format(new Date(date))+' UTC' : stamp(date);
+---
+<Shell title={s.title}>
+<div lang={hebrew?'he':'en'} dir={hebrew?'rtl':'ltr'}>
+<div class="intro"><a class="eyebrow" href={url('topic/'+s.topic)}>{hebrew?topics[s.topic]??topicName(s.topic):topicName(s.topic)}</a><h1>{s.title}</h1><p class="meta"><bdi>{primary?.publisher}{sourcePlatform(primary?.source) && ' · '+sourcePlatform(primary.source)}</bdi> · <bdi>{date(s.reported)}</bdi></p></div>
+<section class="story" aria-labelledby="brief-heading">
+<h2 id="brief-heading">{text('Briefing','תקציר הידיעה')}</h2>
+<p class="brief-body">{excerpt || text('Only the source headline is available here. Open the original for the full story.','כאן זמינה כותרת המקור בלבד. לקריאת הידיעה המלאה, פתחו את המקור.')}</p>
+{excerpt && <div class="meta">{text('Excerpt from','מתוך')} <bdi>{primary.publisher}</bdi></div>}
+{primary && <a class="original-link" href={primary.url}>{sourcePlatform(primary.source)==='YouTube'?text('Watch on YouTube ↗','לצפייה ביוטיוב ↖'):text('Open original ↗','לפתיחת המקור ↖')}</a>}
+</section>
+{s.coverage.length>1 && <section class="story"><h2>{text('Related reporting','דיווחים נוספים')}</h2><ul>{s.coverage.slice(1).map(c=><li><a href={c.url}><bdi>{c.publisher}</bdi></a> · <bdi>{date(c.reported)}</bdi>{c.excerpt && (!hebrew||inHebrew(c.excerpt)) && <p>{c.excerpt}</p>}</li>)}</ul></section>}
+<section class="story"><h2>{text('Timeline','ציר זמן')}</h2><ul>{s.occurred && <li><bdi>{date(s.occurred)}</bdi> · {text('Event','מועד האירוע')}</li>}{[...s.coverage].sort((a,b)=>a.reported.localeCompare(b.reported)).map(c=><li><bdi>{date(c.reported)}</bdi> · {text('Reported by','דווח על ידי')} <bdi>{c.publisher}</bdi></li>)}</ul></section>
+</div>
+</Shell>

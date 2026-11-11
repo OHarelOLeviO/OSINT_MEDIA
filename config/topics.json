@@ -1,0 +1,77 @@
+[
+  {
+    "id": "world",
+    "name": "World & Geopolitics",
+    "enabled": true
+  },
+  {
+    "id": "politics",
+    "name": "Politics & Government",
+    "enabled": true
+  },
+  {
+    "id": "finance",
+    "name": "Finance & Markets",
+    "enabled": true
+  },
+  {
+    "id": "technology",
+    "name": "Technology & AI",
+    "enabled": true
+  },
+  {
+    "id": "space",
+    "name": "Space & Astronomy",
+    "enabled": true
+  },
+  {
+    "id": "sports",
+    "name": "Sports",
+    "enabled": true
+  },
+  {
+    "id": "economy",
+    "name": "Economy & Trade",
+    "enabled": false
+  },
+  {
+    "id": "business",
+    "name": "Business & Industry",
+    "enabled": false
+  },
+  {
+    "id": "cybersecurity",
+    "name": "Cybersecurity",
+    "enabled": false
+  },
+  {
+    "id": "science",
+    "name": "Science & Research",
+    "enabled": false
+  },
+  {
+    "id": "climate",
+    "name": "Climate & Environment",
+    "enabled": false
+  },
+  {
+    "id": "energy",
+    "name": "Energy & Resources",
+    "enabled": false
+  },
+  {
+    "id": "health",
+    "name": "Health & Public Health",
+    "enabled": false
+  },
+  {
+    "id": "culture",
+    "name": "Culture & Media",
+    "enabled": false
+  },
+  {
+    "id": "infrastructure",
+    "name": "Infrastructure & Transportation",
+    "enabled": false
+  }
+]

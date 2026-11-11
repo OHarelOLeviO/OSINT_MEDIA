@@ -1,0 +1,9 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import Story from '../../components/Story.astro';
+import {data,stories,day} from '../../lib';
+export function getStaticPaths(){return Object.entries(data.briefs).map(([date,ids])=>({params:{date},props:{date,ids}}))}
+const {date,ids}=Astro.props;
+const items=ids.map(id=>stories.find(s=>s.id===id)).filter(s=>s!==undefined);
+---
+<Shell title={day(date)}><div class="intro"><p class="eyebrow">{day(date)}</p><h1>Daily Brief</h1></div>{items.map((s,i)=><Story story={s} lead={i===0}/>)}</Shell>

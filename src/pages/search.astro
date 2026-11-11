@@ -1,0 +1,7 @@
+---
+import Shell from '../layouts/Shell.astro';
+import Story from '../components/Story.astro';
+import {stories} from '../lib';
+---
+<Shell title="Search"><div class="intro"><h1>Search</h1></div><label class="search">Search the published archive<input id="query" type="search" placeholder="Headline, topic, or publisher"/></label><p id="results" class="meta" role="status"></p>{stories.map(s=><Story story={s}/>)}</Shell>
+<script>const query=document.querySelector<HTMLInputElement>('#query')!;const rows=[...document.querySelectorAll<HTMLElement>('[data-story]')];function search(){const words=query.value.toLowerCase().trim().split(/\s+/);let count=0;for(const row of rows){row.hidden=!words.every(w=>row.dataset.search?.includes(w));if(!row.hidden)count++;}document.querySelector('#results')!.textContent=count+' '+(count===1?'story':'stories');}query.addEventListener('input',search);search();</script>

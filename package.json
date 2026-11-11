@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "astro": "^5.18.2",
+    "fast-xml-parser": "^5.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "refresh": "node --experimental-strip-types --disable-warning=ExperimentalWarning scripts/refresh.ts"
+  },
+  "name": "the-dispatch",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true
+}

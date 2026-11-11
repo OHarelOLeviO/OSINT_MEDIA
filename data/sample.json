@@ -1,0 +1,139 @@
+{
+  "refreshed": "2026-11-11T16:00:00.000Z",
+  "stories": [
+    {
+      "id": "sample-1",
+      "topic": "world",
+      "title": "Regional mediators announce a new round of talks",
+      "reported": "2026-11-11T16:00:00.000Z",
+      "coverage": [
+        {
+          "source": "bbc-world",
+          "publisher": "BBC News",
+          "excerpt": "Mediators in this sample briefing announced a meeting for next week. The agenda includes border access and a proposed monitoring arrangement.",
+          "reported": "2026-11-11T16:00:00.000Z",
+          "url": "https://www.bbc.com/news"
+        }
+      ]
+    },
+    {
+      "id": "sample-2",
+      "topic": "technology",
+      "title": "Researchers release a benchmark for smaller AI models",
+      "reported": "2026-11-11T15:00:00.000Z",
+      "coverage": [
+        {
+          "source": "bbc-tech",
+          "publisher": "BBC News",
+          "excerpt": "The illustrative benchmark measures performance on multilingual tasks and reports memory requirements alongside accuracy.",
+          "reported": "2026-11-11T15:00:00.000Z",
+          "url": "https://www.bbc.com/news"
+        }
+      ]
+    },
+    {
+      "id": "sample-3",
+      "topic": "space",
+      "title": "Mission team completes a communications rehearsal",
+      "reported": "2026-11-11T14:00:00.000Z",
+      "occurred": "2026-11-10T18:00:00.000Z",
+      "coverage": [
+        {
+          "source": "nasa",
+          "publisher": "NASA",
+          "excerpt": "In this sample scenario, operators tested the ground network ahead of a planned spacecraft maneuver.",
+          "reported": "2026-11-11T14:00:00.000Z",
+          "url": "https://www.nasa.gov/news/"
+        }
+      ]
+    },
+    {
+      "id": "sample-4",
+      "topic": "finance",
+      "title": "Regulator opens consultation on market disclosures",
+      "reported": "2026-11-11T13:00:00.000Z",
+      "coverage": [
+        {
+          "source": "sec",
+          "publisher": "U.S. SEC",
+          "excerpt": "The sample proposal covers how trading venues report outages. A consultation period would give market participants time to submit feedback.",
+          "reported": "2026-11-11T13:00:00.000Z",
+          "url": "https://www.sec.gov/newsroom"
+        }
+      ]
+    },
+    {
+      "id": "sample-5",
+      "topic": "politics",
+      "title": "Committee publishes its agenda for the next session",
+      "reported": "2026-11-11T12:00:00.000Z",
+      "coverage": [
+        {
+          "source": "govinfo",
+          "publisher": "U.S. Government Publishing Office",
+          "excerpt": "The illustrative agenda lists a public hearing and a review of amendments before the next committee vote.",
+          "reported": "2026-11-11T12:00:00.000Z",
+          "url": "https://www.govinfo.gov/"
+        }
+      ]
+    },
+    {
+      "id": "sample-6",
+      "topic": "sports",
+      "title": "Tournament organisers confirm the weekend schedule",
+      "reported": "2026-11-11T11:00:00.000Z",
+      "coverage": [
+        {
+          "source": "bbc-sport",
+          "publisher": "BBC Sport",
+          "excerpt": "This sample report illustrates schedule coverage. It contains no live scores.",
+          "reported": "2026-11-11T11:00:00.000Z",
+          "url": "https://www.bbc.com/sport"
+        }
+      ]
+    },
+    {
+      "id": "sample-7",
+      "topic": "world",
+      "title": "Aid agencies outline winter logistics plans",
+      "reported": "2026-11-10T10:00:00.000Z",
+      "coverage": [
+        {
+          "source": "bbc-world",
+          "publisher": "BBC News",
+          "excerpt": "This earlier sample edition illustrates coverage of transport and storage plans.",
+          "reported": "2026-11-10T10:00:00.000Z",
+          "url": "https://www.bbc.com/news"
+        }
+      ]
+    },
+    {
+      "id": "sample-8",
+      "topic": "space",
+      "title": "Observatory team publishes a calibration update",
+      "reported": "2026-11-10T09:00:00.000Z",
+      "coverage": [
+        {
+          "source": "nasa",
+          "publisher": "NASA",
+          "excerpt": "This earlier sample report describes instrument calibration before a planned observation window.",
+          "reported": "2026-11-10T09:00:00.000Z",
+          "url": "https://www.nasa.gov/news/"
+        }
+      ]
+    }
+  ],
+  "briefs": {
+    "2026-11-11": [
+      "sample-1",
+      "sample-2",
+      "sample-3",
+      "sample-4"
+    ],
+    "2026-11-10": [
+      "sample-7",
+      "sample-8"
+    ]
+  },
+  "feeds": {}
+}

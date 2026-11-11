@@ -1,0 +1,14 @@
+---
+import {url,topics,data,isSample,stamp} from '../lib';
+import '../style.css';
+const {title='The Feed'}=Astro.props;
+const here=Astro.url.pathname;
+const nav=[['Feed','','▤'],['Search','search','⌕'],['Archive','archive','▣'],['Sources','sources','◎']];
+---
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="theme-color" content="#0b1220"/><title>{title} | The Dispatch</title></head><body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap page">
+<header class="mast"><a class="brand" href={url()}><span aria-hidden="true">✳</span>The Dispatch</a><nav aria-label="Main">{nav.map(([label,path,icon])=><a href={url(path)} aria-current={(path?here.startsWith(url(path)):here===url())?'page':undefined}><span aria-hidden="true">{icon}</span>{label}</a>)}</nav></header>
+<main id="main">{isSample && <p class="sample">Sample edition · Illustrative stories and timestamps</p>}<slot/></main>
+<aside><section class="rail"><h2>Explore topics</h2><nav aria-label="Topics">{topics.map(t=><a href={url('topic/'+t.id)}>{t.name}<span aria-hidden="true">↗</span></a>)}</nav></section><section class="rail"><p class="eyebrow">Last successful refresh</p><p class="meta">{data.refreshed ? stamp(data.refreshed) : 'Awaiting first refresh'}</p></section></aside>
+</div></body></html>
