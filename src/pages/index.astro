@@ -1,12 +1,11 @@
 ---
 import Shell from '../layouts/Shell.astro';
 import Story from '../components/Story.astro';
-import {data,stories,topics,day} from '../lib';
-const date=Object.keys(data.briefs).sort().at(-1);
+import {stories,topics} from '../lib';
 const feed=stories;
 ---
 <Shell title="העדכונים">
-<div class="intro"><p class="eyebrow">{date ? day(date) : 'ממתינים למהדורה הראשונה'}</p><h1>העדכונים<span>.</span></h1><p class="deck">העדכונים האחרונים בכל הנושאים.</p></div>
+<h1 class="visually-hidden">העדכונים</h1>
 <div class="filters chips" role="group" aria-label="סינון לפי נושא">{topics.map(t=><button data-filter={t.id} aria-pressed="false">{t.name}</button>)}</div>
 <section id="feed" aria-label="רשימת עדכונים">{feed.map((s)=><Story story={s} />)}</section>
 <p id="feed-empty" role="status" hidden={feed.length>0}>אין כרגע ידיעות בעברית בתצוגה זו.</p>

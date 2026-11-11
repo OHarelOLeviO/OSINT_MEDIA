@@ -5,7 +5,7 @@ import {topics,stories,sources,data,summary} from '../../lib';
 export function getStaticPaths(){return topics.map(t=>({params:{id:t.id},props:{topic:t}}))}
 const {topic}=Astro.props;
 const items=stories.filter(s=>s.topic===topic.id);
-const feeds=sources.filter(s=>s.enabled && s.topic===topic.id);
+const feeds=sources.filter(s=>s.enabled && (s.topic===topic.id || items.some(story=>story.coverage.some(c=>c.source===s.id))));
 ---
 <Shell title={topic.name}><div class="intro"><p class="eyebrow">עדכונים לפי נושא</p><h1>{topic.name}</h1>{items[0] && <p class="deck" id="topic-brief">{summary(items[0])} <small>— {items[0].coverage[0]?.publisher}</small></p>}</div>
 {feeds.some(s=>data.feeds[s.id]?.ok===false) && <p class="notice">עדכון המקורות נכשל עבור {feeds.filter(s=>data.feeds[s.id]?.ok===false).map(s=>s.publisher).join(', ')}. ידיעות קודמות עדיין זמינות.</p>}

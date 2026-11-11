@@ -5,10 +5,10 @@ const {title='עדכונים'}=Astro.props;
 const here=Astro.url.pathname;
 const nav=[['עדכונים','','▤'],['חיפוש','search','⌕'],['ארכיון','archive','▣'],['מקורות','sources','◎']];
 ---
-<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="theme-color" content="#0b1220"/><title>{title} | הדיספאץ׳</title></head><body>
+<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="theme-color" content="#091426"/><title>{title} | OSINT MEDIA</title></head><body>
 <a class="skip" href="#main">דילוג לתוכן</a>
 <div class="wrap page">
-<header class="mast"><a class="brand" href={url()}><span aria-hidden="true">✳</span>הדיספאץ׳</a><nav aria-label="ניווט ראשי">{nav.map(([label,path,icon])=><a href={url(path)} aria-current={(path?here.startsWith(url(path)):here===url())?'page':undefined}><span aria-hidden="true">{icon}</span>{label}</a>)}</nav></header>
+<header class="mast"><a class="brand" href={url()}><span aria-hidden="true">◉</span><bdi>OSINT MEDIA</bdi></a><nav aria-label="ניווט ראשי">{nav.map(([label,path,icon])=><a href={url(path)} aria-current={(path?here.startsWith(url(path)):here===url())?'page':undefined}><span aria-hidden="true">{icon}</span>{label}</a>)}</nav></header>
 <main id="main">{isSample && <p class="sample">מהדורה לדוגמה · ידיעות ותאריכים להמחשה</p>}<slot/></main>
 <footer class="refresh-status"><span>עדכון אחרון</span><span>{data.refreshed ? stamp(data.refreshed) : "ממתין לעדכון ראשון"}</span></footer>
 </div></body></html>

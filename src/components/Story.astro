@@ -1,5 +1,5 @@
 ---
-import {url,stamp,topicName,mainIdea,inHebrew,sourcePlatform,type Story} from '../lib';
+import {stamp,topicName,mainIdea,inHebrew,sourcePlatform,type Story} from '../lib';
 const {story:s,lead=false}=Astro.props as {story:Story;lead?:boolean};
 const hebrew=inHebrew(s.title);
 const idea=mainIdea(s);
@@ -10,9 +10,9 @@ const symbols:Record<string,string>={world:'◎',politics:'◇',finance:'↗',te
 ---
 <article class:list={['story','post',{lead}]} data-story lang={hebrew?"he":"en"} dir={hebrew?"rtl":"ltr"} data-hebrew={hebrew?"1":"0"} data-topic={s.topic} data-reported={s.reported} data-date={s.reported.slice(0,10)} data-source={s.coverage.map(x=>x.source).join(' ')} data-search={[s.title,topicName(s.topic),...s.coverage.flatMap(x=>[x.publisher,x.excerpt])].join(' ').toLowerCase()}>
 <div class="post-top"><span class="avatar" aria-hidden="true">{symbols[s.topic] ?? '◇'}</span><div><strong>{s.coverage[0]?.publisher}{platform && platform!=="RSS" && " · "+platform}</strong><div class="meta"><time datetime={s.reported}>{stamp(s.reported)}</time></div></div></div>
-<a class="eyebrow topic-link" href={url('topic/'+s.topic)}>{topicName(s.topic)}</a>
-<h3><a class="post-link" href={url('story/'+s.id)}><bdi>{s.title}</bdi></a></h3>{idea && <p>{idea}</p>}
+<div class="eyebrow">{topicName(s.topic)}</div>
+<h3><bdi>{s.title}</bdi></h3>{idea && <p>{idea}</p>}
 {image && <img class="post-image" src={image} alt="" loading="lazy" decoding="async"/>}
-{s.coverage.length>1 && <ul class="coverage-links" aria-label={hebrew?'מקורות נוספים':'מקורות הידיעה'}>{s.coverage.filter((c,i,all)=>all.findIndex(x=>x.url===c.url)===i).map(c=><li><a href={c.url}><bdi>{c.publisher}{sourcePlatform(c.source)?' · '+sourcePlatform(c.source):''}</bdi> ↗</a></li>)}</ul>}
+{s.coverage.length>1 && <ul class="coverage-links" aria-label={hebrew?'מקורות נוספים':'מקורות הידיעה'}>{s.coverage.filter((c,i,all)=>all.findIndex(x=>x.url===c.url)===i).map(c=><li><bdi>{c.publisher}{sourcePlatform(c.source)?' · '+sourcePlatform(c.source):''}</bdi></li>)}</ul>}
 <div class="post-bottom"><span>{hebrew ? (idea?'מתוך המקור':'כותרת המקור') : (idea?'מתוך המקור':'כותרת המקור')}</span>{original && <a class="card-original" href={original}>לפרטי הידיעה ↖</a>}</div>
 </article>

@@ -1,4 +1,4 @@
-# The Dispatch
+# OSINT MEDIA
 
 A static, UTC-based public-source briefing built with Astro and TypeScript.
 

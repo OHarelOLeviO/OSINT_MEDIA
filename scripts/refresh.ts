@@ -50,6 +50,14 @@ export function merge(stories:Story[], item:{title:string;topic:string;coverage:
   else if(c.image)previous.image=c.image;
   return prior;
 }
+function routeTopic(title:string, fallback:string){
+  if(fallback==='sports'||fallback==='finance'||fallback==='technology')return fallback;
+  if(/אקלים|התחממות גלובלית|זיהום|אנרגיה מתחדשת|אנרגיה סולארית|פליטות|משבר המים|דלק מאובנים|אנרגיית רוח|הגנת הסביבה/u.test(title))return 'climate';
+  if(/חללי[תיו]|אסטרונומ|טלסקופ|מערכת השמש|מאדים|מטאור|לוויין|נאס[״"']א|בית חולים|בריאות|רפוא|חיסון|מחקר|מאובן/u.test(title))return 'space';
+  if(/צה[״"']ל|צבא|צבאי|גאופוליטי|חיל האוויר|תקיפה|טיל|איראן|חיזבאללה|חמאס|מלחמה|גבול|דיפלומטי|סנקציות/u.test(title))return 'world';
+  if(/חינוך|בתי ספר|בית ספר|תלמיד|מורים|תרבות|תיאטרון|קולנוע|פסטיבל|מוזיאון|קהילה|הפגנת סטודנטים|אוניברסיטה/u.test(title))return 'culture';
+  return fallback;
+}
 async function fetchFeed(source:typeof sources[number]){
   for(let attempt=0;attempt<2;attempt++){
     try{
@@ -87,11 +95,13 @@ async function fetchFeed(source:typeof sources[number]){
           if(source.id==='ynet-sport'&&!article.pathname.startsWith('/sport/'))return [];
         }
         const settings=source as typeof source & {headlineMatch?:string;localMatch?:string;headlineOnly?:boolean};
-        if([settings.headlineMatch,settings.localMatch].some(pattern=>pattern && !new RegExp(pattern, "iu").test(title)))return [];
+        const topic=routeTopic(title,source.topic);
+        const pattern=topic===source.topic&&source.topic!=='space'?settings.headlineMatch:undefined;
+        if([pattern,settings.localMatch].some(value=>value && !new RegExp(value,"iu").test(title)))return [];
         const excerpt=settings.headlineOnly ? "" : description;
         const thumbnail=source.id.startsWith('yt-') ? [e['media:group']?.['media:thumbnail']].flat()[0]?.['@_url'] : undefined;
         const image=typeof thumbnail==='string' && /^https:\/\/i[1-4]?\.ytimg\.com\//.test(thumbnail)?thumbnail:undefined;
-        return [{title,topic:source.topic,coverage:{url,source:source.id,publisher:source.attribution,image,reported:new Date(date).toISOString(),excerpt:excerpt.length>260?excerpt.slice(0,257).trimEnd()+'…':excerpt}}];
+        return [{title,topic,coverage:{url,source:source.id,publisher:source.attribution,image,reported:new Date(date).toISOString(),excerpt:excerpt.length>260?excerpt.slice(0,257).trimEnd()+'…':excerpt}}];
       }).slice(0,35);
     } catch {
       if(attempt===0)await new Promise(r=>setTimeout(r,800));
@@ -128,6 +138,7 @@ async function refresh(){
   const consolidated:Story[]=[];
   const aliases=new Map<string,string>();
   for(const story of state.stories){
+    story.topic=routeTopic(story.title,story.topic);
     const [first,...rest]=story.coverage;
     if(!first)continue;
     const target=merge(consolidated,{title:story.title,topic:story.topic,coverage:first},story);

@@ -1,17 +1,27 @@
 [
   {
     "id": "politics",
-    "name": "פוליטיקה",
+    "name": "פוליטיקה, ממשל ומשפט",
+    "enabled": true
+  },
+  {
+    "id": "world",
+    "name": "ביטחון, צבא וגאופוליטיקה",
     "enabled": true
   },
   {
     "id": "technology",
-    "name": "טכנולוגיה ו AI",
+    "name": "טכנולוגיה, AI וסייבר",
     "enabled": true
   },
   {
     "id": "finance",
-    "name": "כלכלה ומסחר",
+    "name": "כלכלה, עסקים ושוק ההון",
+    "enabled": true
+  },
+  {
+    "id": "space",
+    "name": "מדע, חלל ורפואה",
     "enabled": true
   },
   {
@@ -20,58 +30,13 @@
     "enabled": true
   },
   {
-    "id": "space",
-    "name": "חלל",
+    "id": "culture",
+    "name": "חברה, חינוך ותרבות",
     "enabled": true
   },
   {
-    "id": "world",
-    "name": "World & Geopolitics",
-    "enabled": false
-  },
-  {
-    "id": "economy",
-    "name": "Economy & Trade",
-    "enabled": false
-  },
-  {
-    "id": "business",
-    "name": "Business & Industry",
-    "enabled": false
-  },
-  {
-    "id": "cybersecurity",
-    "name": "Cybersecurity",
-    "enabled": false
-  },
-  {
-    "id": "science",
-    "name": "Science & Research",
-    "enabled": false
-  },
-  {
     "id": "climate",
-    "name": "Climate & Environment",
-    "enabled": false
-  },
-  {
-    "id": "energy",
-    "name": "Energy & Resources",
-    "enabled": false
-  },
-  {
-    "id": "health",
-    "name": "Health & Public Health",
-    "enabled": false
-  },
-  {
-    "id": "culture",
-    "name": "Culture & Media",
-    "enabled": false
-  },
-  {
-    "id": "infrastructure",
-    "name": "Infrastructure & Transportation",
-    "enabled": false
+    "name": "אקלים, סביבה ואנרגיה",
+    "enabled": true
   }
 ]
