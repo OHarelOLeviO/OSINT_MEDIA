@@ -1,5 +1,5 @@
 {
-  "refreshed": "2026-11-24T22:30:12.380Z",
+  "refreshed": "2026-11-25T08:40:22.765Z",
   "stories": [
     {
       "id": "3711f11171cc5d8fdf27",
@@ -75723,6 +75723,13 @@
           "publisher": "וואלה",
           "reported": "2026-11-24T09:15:43.000Z",
           "excerpt": ""
+        },
+        {
+          "url": "https://www.walla.co.il/news/breaking-news/383962983",
+          "source": "walla-politics",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T05:01:52.000Z",
+          "excerpt": ""
         }
       ]
     },
@@ -81801,6 +81808,2568 @@
           "excerpt": ""
         }
       ]
+    },
+    {
+      "id": "a43beb2e668153b7d6a3",
+      "title": "הג'וב החדש של הרמטכ\"ל לשעבר אביב כוכבי",
+      "topic": "finance",
+      "reported": "2026-11-25T07:40:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.mako.co.il/news-money/2026_q4/Article-eca0522b29112a1026.htm",
+          "source": "n12-finance",
+          "publisher": "חדשות 12",
+          "reported": "2026-11-25T07:40:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "c1a6bb6404179e9e5bcd",
+      "title": "התעלומה סביב הקוטג': הטרנד שעומד מאחורי המחסור התמידי במדפים",
+      "topic": "finance",
+      "reported": "2026-11-25T07:05:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.mako.co.il/news-money/consumer/Article-4de06a53c9012a1027.htm",
+          "source": "n12-finance",
+          "publisher": "חדשות 12",
+          "reported": "2026-11-25T07:05:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "4756ae865408b4e664e5",
+      "title": "הטיסה הכי ארוכה מישראל תמריא ביום ראשון - זה מה שמחכה לנוסעים",
+      "topic": "finance",
+      "reported": "2026-11-25T05:11:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.mako.co.il/news-money/consumer/Article-e78535b4ead02a1026.htm",
+          "source": "n12-finance",
+          "publisher": "חדשות 12",
+          "reported": "2026-11-25T05:11:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "a3a804769cb6dcfdef08",
+      "title": "שירות התעסוקה: אלו המקצועות במשק הישראלי שכבר לא יכולים בלי AI",
+      "topic": "finance",
+      "reported": "2026-11-25T04:00:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.mako.co.il/news-money/tech12/Article-2f3ca43d54f02a1027.htm",
+          "source": "n12-finance",
+          "publisher": "חדשות 12",
+          "reported": "2026-11-25T04:00:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "491ea252ba13ddedead6",
+      "title": "איזנקוט נערך להשביע ממשלה בשבוע הבא: \"מפנה מוקשים\" מימין, ומסתבך עם גולן",
+      "topic": "politics",
+      "reported": "2026-11-25T07:59:56.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/news/article/bknovbv1mx",
+          "source": "ynet-news",
+          "publisher": "ynet",
+          "reported": "2026-11-25T07:59:56.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "6101dd0322fa62151a0d",
+      "title": "חברת הכנסת לשעבר תואשם בכפוף לשימוע: עברה ברמזור אדום וגרמה לתאונה",
+      "topic": "politics",
+      "reported": "2026-11-25T07:55:11.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/news/article/sj7rmmvk7l",
+          "source": "ynet-news",
+          "publisher": "ynet",
+          "reported": "2026-11-25T07:55:11.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "2914bacfa0ee877b12f8",
+      "title": "ועדה חקירה ממלכתית והקפאת מעצרי עריקים: החוקים הנפיצים שיעלו בכנסת",
+      "topic": "politics",
+      "reported": "2026-11-25T06:22:55.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/news/article/sysoheqjxl",
+          "source": "ynet-news",
+          "publisher": "ynet",
+          "reported": "2026-11-25T06:22:55.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "13d65a11fe333affff62",
+      "title": "ליברמן משנה כיוון: \"עד השבוע הבא אפשר להציג ממשלה עם רוב יהודי ברור\"",
+      "topic": "politics",
+      "reported": "2026-11-25T05:57:36.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/news/article/rycnee4kqx",
+          "source": "ynet-news",
+          "publisher": "ynet",
+          "reported": "2026-11-25T05:57:36.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "9f76351a312b50ac0cc7",
+      "title": "טראמפ מסמן את חלון הזמן לתקיפה באיראן: \"יש לנו מימון עד סוף ינואר\"",
+      "topic": "world",
+      "reported": "2026-11-25T04:49:43.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/news/article/sknzej4jme",
+          "source": "ynet-news",
+          "publisher": "ynet",
+          "reported": "2026-11-25T04:49:43.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "9da0228187dda63da8f8",
+      "title": "ימים, שבועות או חודשים? האיום הכימי מאיראן - והדילמה בצמרת הביטחונית",
+      "topic": "world",
+      "reported": "2026-11-25T03:41:18.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/news/article/yokra14969600",
+          "source": "ynet-news",
+          "publisher": "ynet",
+          "reported": "2026-11-25T03:41:18.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "3f9c4027c347596a2afa",
+      "title": "\"אי-אפשר להסתמך על מילואים כל הזמן\": צעירי המכינות ששומרים על הגבול עם ירדן",
+      "topic": "world",
+      "reported": "2026-11-25T03:40:56.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/news/article/yokra14968969",
+          "source": "ynet-news",
+          "publisher": "ynet",
+          "reported": "2026-11-25T03:40:56.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "1bb4a1ccf3ab39d38ac5",
+      "title": "חומרי הגלם הוזלו, המחירים לצרכן לא: שטראוס מגדילה רווחים ומפטרת עובדים",
+      "topic": "finance",
+      "reported": "2026-11-25T08:25:03.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/economy/article/bkteyf41xx",
+          "source": "ynet-finance",
+          "publisher": "ynet",
+          "reported": "2026-11-25T08:25:03.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "b81090743b65b6090ae2",
+      "title": "כך ייראה המתחם שנפגע מהטיל האיראני ברמת גן: שני מגדלים בני 40 קומות",
+      "topic": "finance",
+      "reported": "2026-11-25T08:22:35.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/economy/article/rj8mwzeyxl",
+          "source": "ynet-finance",
+          "publisher": "ynet",
+          "reported": "2026-11-25T08:22:35.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "09edbea3904b3c4ed7f9",
+      "title": "זכה ב-10,000 דולר בקזינו ונשאר בלי כלום: \"אני שומר שבת, דרשו שאגיע בשישי בערב\"",
+      "topic": "finance",
+      "reported": "2026-11-25T07:48:45.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/economy/article/bydzngvj7x",
+          "source": "ynet-finance",
+          "publisher": "ynet",
+          "reported": "2026-11-25T07:48:45.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "e136a4c6a12d3ea9f8dd",
+      "title": "ברמתו הגבוהה ביותר מאז ספטמבר 2025: הדולר ממשיך להתחזק על חשבון השקל",
+      "topic": "finance",
+      "reported": "2026-11-25T07:37:05.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/economy/article/by6ldwn1qg",
+          "source": "ynet-finance",
+          "publisher": "ynet",
+          "reported": "2026-11-25T07:37:05.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "9d8886d82fd462830314",
+      "title": "לא רק מגדלים: ברמלה מתכננים גם את היום שאחרי הפינוי-בינוי",
+      "topic": "finance",
+      "reported": "2026-11-25T07:18:43.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/economy/article/rk8aayzjql",
+          "source": "ynet-finance",
+          "publisher": "ynet",
+          "reported": "2026-11-25T07:18:43.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "a559ca69da4503f14b0b",
+      "title": "הג'וב החדש של הרמטכ\"ל לשעבר כוכבי | זה יהיה שכרו",
+      "topic": "finance",
+      "reported": "2026-11-25T07:00:20.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/economy/article/rk3axz4jme",
+          "source": "ynet-finance",
+          "publisher": "ynet",
+          "reported": "2026-11-25T07:00:20.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "5967e287bb23070aa777",
+      "title": "האחיין, המשפחה והטענה לזיוף: מי זכה בירושת הדוד?",
+      "topic": "finance",
+      "reported": "2026-11-25T06:07:15.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/economy/article/r1uwm0a0fg",
+          "source": "ynet-finance",
+          "publisher": "ynet",
+          "reported": "2026-11-25T06:07:15.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "bde214454730105bcfc6",
+      "title": "מקבלים בונוס בעבודה? זו ההשפעה על הפנסיה והפיצויים",
+      "topic": "finance",
+      "reported": "2026-11-25T06:06:43.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/economy/article/rygfba0rfg",
+          "source": "ynet-finance",
+          "publisher": "ynet",
+          "reported": "2026-11-25T06:06:43.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "2c3a20ca01db92ce9c9f",
+      "title": "פרשת בניהו רזי: איפה הגבול בין שותפות ברצח לסיוע?",
+      "topic": "finance",
+      "reported": "2026-11-25T06:06:05.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/economy/article/sjj8vwtagx",
+          "source": "ynet-finance",
+          "publisher": "ynet",
+          "reported": "2026-11-25T06:06:05.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "534a0a43169091e2e8c1",
+      "title": "מימי החופשה עד החזרי מס: כך תדעו שקיבלתם השנה את כל הכסף שמגיע לכם",
+      "topic": "finance",
+      "reported": "2026-11-25T05:02:58.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/economy/article/bkyul3zkqx",
+          "source": "ynet-finance",
+          "publisher": "ynet",
+          "reported": "2026-11-25T05:02:58.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "3ef7ea53f512b7c5a59c",
+      "title": "המשימה הכי רווחית של 007: כך הפך ג'יימס בונד למותג ששווה מיליארדים",
+      "topic": "finance",
+      "reported": "2026-11-25T05:02:40.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/economy/article/rkkmn3b1ml",
+          "source": "ynet-finance",
+          "publisher": "ynet",
+          "reported": "2026-11-25T05:02:40.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "77f86f02fc8bcce1cdde",
+      "title": "המעבדה הגעשית: מה פירק את המתאן מעל האוקיינוס?",
+      "topic": "space",
+      "reported": "2026-11-25T05:01:30.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/environment-science/article/r1vyvexjxl",
+          "source": "ynet-space",
+          "publisher": "ynet",
+          "reported": "2026-11-25T05:01:30.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "32695f8e32226acf900c",
+      "title": "הישראלי שצילם את תחנת החלל הבינלאומית ברזולוציה יוצאת דופן",
+      "topic": "space",
+      "reported": "2026-11-25T04:58:49.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/environment-science/article/skcpehfczg",
+          "source": "ynet-space",
+          "publisher": "ynet",
+          "reported": "2026-11-25T04:58:49.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "db234c21bc5ba6b00638",
+      "title": "נחשפה קללה עתיקה נגד נחש ענק, שאיים על אל השמש",
+      "topic": "space",
+      "reported": "2026-11-25T04:58:02.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/environment-science/article/b1saq17jxl",
+          "source": "ynet-space",
+          "publisher": "ynet",
+          "reported": "2026-11-25T04:58:02.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "f802d1f43f38309d2970",
+      "title": "יו\"ר הכנסת מתן כהנא נועד לראשונה עם נשיא העליון יצחק עמית",
+      "topic": "politics",
+      "reported": "2026-11-25T08:38:27.000Z",
+      "coverage": [
+        {
+          "url": "https://www.walla.co.il/news/breaking-news/383963021",
+          "source": "walla-politics",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T08:38:27.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "0042f930817375c1e8f7",
+      "title": "אובדן השליטה של צה\"ל על הטרור היהודי ביו\"ש: נבחנת האפשרות להעברת סמכויות למשטרה",
+      "topic": "world",
+      "reported": "2026-11-25T08:22:54.000Z",
+      "coverage": [
+        {
+          "url": "https://www.walla.co.il/news/military/383962998",
+          "source": "walla-politics",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T08:22:54.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "52578c82ecb839c7729d",
+      "title": "הדמוקרטים: \"לא נחתום על הסכם שמוביל להמשך המדיניות של הממשלה היוצאת\"",
+      "topic": "politics",
+      "reported": "2026-11-25T07:45:29.000Z",
+      "coverage": [
+        {
+          "url": "https://www.walla.co.il/news/breaking-news/383963010",
+          "source": "walla-politics",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T07:45:29.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "d3ace97841a4bc9a8511",
+      "title": "אחרי ההסכם החשאי עם סין: איי שלמה מתחייבים שלא לאפשר בסיסים צבאיים זרים",
+      "topic": "world",
+      "reported": "2026-11-25T07:43:29.000Z",
+      "coverage": [
+        {
+          "url": "https://www.walla.co.il/news/world/383963009",
+          "source": "walla-politics",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T07:43:29.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "d7ccaab122af6162b0d0",
+      "title": "ליברמן: לא אתפלא אם נגלה שנתניהו וכ\"ץ מפעילים את המוסד ושב\"כ נגד ראשי גוש השינוי",
+      "topic": "politics",
+      "reported": "2026-11-25T07:22:12.000Z",
+      "coverage": [
+        {
+          "url": "https://www.walla.co.il/news/breaking-news/383963007",
+          "source": "walla-politics",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T07:22:12.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "21c519c10e8cdc0efafb",
+      "title": "סגן נשיא איראן: איננו מודאגים מהמצור הימי האמריקני",
+      "topic": "world",
+      "reported": "2026-11-25T06:47:30.000Z",
+      "coverage": [
+        {
+          "url": "https://www.walla.co.il/news/breaking-news/383962999",
+          "source": "walla-politics",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T06:47:30.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "5022627ad8345d55f654",
+      "title": "ליברמן: \"עד סוף השבוע הבא אפשר להציג ממשלה עם רוב יהודי ברור\"",
+      "topic": "politics",
+      "reported": "2026-11-25T05:58:05.000Z",
+      "coverage": [
+        {
+          "url": "https://www.walla.co.il/news/politics/383962993",
+          "source": "walla-politics",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T05:58:05.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "1e3cb9e16ab21995da19",
+      "title": "לאחר שסירבה והשופטים חייבו את התייצבותה: בהרב מיארה תגיע לראשונה לדיון במשפט נתניהו",
+      "topic": "politics",
+      "reported": "2026-11-25T05:55:49.000Z",
+      "coverage": [
+        {
+          "url": "https://www.walla.co.il/news/law-news/383962992",
+          "source": "walla-politics",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T05:55:49.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "8157cb5becea21ed034c",
+      "title": "על רקע החשש מ״היפוך קנים״ ביו״ש: צה״ל פתח במבצע תחקורים נגד פעילי תנזים בקלקיליה",
+      "topic": "world",
+      "reported": "2026-11-25T05:55:28.000Z",
+      "coverage": [
+        {
+          "url": "https://www.walla.co.il/news/military/383962978",
+          "source": "walla-politics",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T05:55:28.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "30919cfdda4accd88e3d",
+      "title": "דיווח: ארה\"ב זנחה את התוכנית להציע לרוסיה תמריצים כלכליים כדי לסיים את המלחמה",
+      "topic": "world",
+      "reported": "2026-11-25T05:48:13.000Z",
+      "coverage": [
+        {
+          "url": "https://www.walla.co.il/news/breaking-news/383962991",
+          "source": "walla-politics",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T05:48:13.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "bb7478174fbdd3406421",
+      "title": "ברגע האמת של נתניהו מול החרדים - האיש שתמיד הציל אותו לא שם",
+      "topic": "politics",
+      "reported": "2026-11-25T05:26:36.000Z",
+      "coverage": [
+        {
+          "url": "https://www.walla.co.il/news/opinions/383962985",
+          "source": "walla-politics",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T05:26:36.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "a10ec3501f3d74dfc86b",
+      "title": "פעם שנייה בתוך 12 יום: חמישה אנשי צוות נהרגו בהתרסקות מסוק צבאי בטורקיה",
+      "topic": "world",
+      "reported": "2026-11-25T04:01:59.000Z",
+      "coverage": [
+        {
+          "url": "https://www.walla.co.il/news/world/383962976",
+          "source": "walla-politics",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T04:01:59.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "9c9e7cfe9550d6e64dcb",
+      "title": "ארה״ב באזהרה מעודכנת לאזרחיה בישראל: איראן תקפה נכסים אמריקניים במפרץ",
+      "topic": "world",
+      "reported": "2026-11-25T04:01:39.000Z",
+      "coverage": [
+        {
+          "url": "https://www.walla.co.il/news/world/383962975",
+          "source": "walla-politics",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T04:01:39.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "cb34e0388dbd96dc989e",
+      "title": "דוח משרד הבריאות: באילו תחומים בתי החולים בישראל מצטיינים - ואיפה נמצאו פערים?",
+      "topic": "space",
+      "reported": "2026-11-25T03:59:36.000Z",
+      "coverage": [
+        {
+          "url": "https://www.walla.co.il/news/israel/383962973",
+          "source": "walla-politics",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T03:59:36.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "73bcf767e73aff0ee5a3",
+      "title": "יום עמוס בכנסת: שבע הצעות חוק יעלו להצבעה, הוועדות ימשיכו בבליץ החקיקה",
+      "topic": "politics",
+      "reported": "2026-11-25T03:58:45.000Z",
+      "coverage": [
+        {
+          "url": "https://www.walla.co.il/news/politics/383962971",
+          "source": "walla-politics",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T03:58:45.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "f4004d093484ae61d1e5",
+      "title": "טראמפ: הפלת המשטר באיראן \"כנראה אפשרית\", אבל זו לא המטרה שלי",
+      "topic": "world",
+      "reported": "2026-11-25T02:26:57.000Z",
+      "coverage": [
+        {
+          "url": "https://www.walla.co.il/news/breaking-news/383962981",
+          "source": "walla-politics",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T02:26:57.000Z",
+          "excerpt": ""
+        },
+        {
+          "url": "https://www.walla.co.il/news/world/383962980",
+          "source": "walla-politics",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T02:20:14.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "25555e8764acf91020a8",
+      "title": "העולם נמצא בחוב של 115 טריליון דולר - והוא יוצא לכם מהכיס",
+      "topic": "finance",
+      "reported": "2026-11-25T11:29:00.000Z",
+      "coverage": [
+        {
+          "url": "https://finance.walla.co.il/item/3877581",
+          "source": "walla-finance",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T11:29:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "94e866a7bbd534aa4c0e",
+      "title": "עשרות חברות הצטרפו לאמנה חדשה למאבק באלימות נגד נשים",
+      "topic": "finance",
+      "reported": "2026-11-25T10:45:00.000Z",
+      "coverage": [
+        {
+          "url": "https://finance.walla.co.il/item/3877572",
+          "source": "walla-finance",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T10:45:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "cd55d6374ef63ed75e87",
+      "title": "מסמכים חושפים: חברות הקשורות למאהבת של מנכ\"ל אנבידיה גייסו 270 מיליון דולר בסין",
+      "topic": "finance",
+      "reported": "2026-11-25T10:32:00.000Z",
+      "coverage": [
+        {
+          "url": "https://finance.walla.co.il/item/3877569",
+          "source": "walla-finance",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T10:32:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "cdabd17dfda8f9041d83",
+      "title": "הג'וב החדש של הרמטכ\"ל לשעבר אביב כוכבי: כמה הוא ירוויח?",
+      "topic": "finance",
+      "reported": "2026-11-25T10:09:00.000Z",
+      "coverage": [
+        {
+          "url": "https://finance.walla.co.il/item/3877565",
+          "source": "walla-finance",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T10:09:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "0e22495f72de8d38c298",
+      "title": "\"פגעתי בכולכם, אני בטיפול יומיומי\": השיחה החשופה של מנכ\"ל אנבידיה עם העובדים",
+      "topic": "finance",
+      "reported": "2026-11-25T10:02:00.000Z",
+      "coverage": [
+        {
+          "url": "https://finance.walla.co.il/item/3877563",
+          "source": "walla-finance",
+          "publisher": "וואלה",
+          "reported": "2026-11-25T10:02:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "9a6a102901388db34774",
+      "title": "בנט באוצר, ליברמן בביטחון ולפיד שר החוץ? כך עשויה להיראות הממשלה הבאה",
+      "topic": "politics",
+      "reported": "2026-11-25T08:28:42.000Z",
+      "coverage": [
+        {
+          "url": "https://www.israelhayom.co.il/news/politics/article/21927109",
+          "source": "israelhayom",
+          "publisher": "ישראל היום",
+          "reported": "2026-11-25T08:28:42.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "af923dc455a219f8553b",
+      "title": "מנסור עבאס: \"מה שאפשרי כעת הוא ממשלת שינוי בתמיכת רע\"ם והחרדים\"",
+      "topic": "politics",
+      "reported": "2026-11-25T06:49:19.000Z",
+      "coverage": [
+        {
+          "url": "https://www.israelhayom.co.il/news/politics/article/21926887",
+          "source": "israelhayom",
+          "publisher": "ישראל היום",
+          "reported": "2026-11-25T06:49:19.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "b4b7c539ddc2754d9bf7",
+      "title": "24 שעות אחרי \"עלה בידי\": תוכנית הבזק של איזנקוט להשבעת ממשלה",
+      "topic": "politics",
+      "reported": "2026-11-25T06:29:46.000Z",
+      "coverage": [
+        {
+          "url": "https://www.israelhayom.co.il/news/politics/article/21926754",
+          "source": "israelhayom",
+          "publisher": "ישראל היום",
+          "reported": "2026-11-25T06:29:46.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "4b1416e2d6dfb484f531",
+      "title": "לראשונה במשפט נתניהו: היועמ״שית תתייצב בפני הרכב השופטים",
+      "topic": "politics",
+      "reported": "2026-11-25T06:22:40.000Z",
+      "coverage": [
+        {
+          "url": "https://www.israelhayom.co.il/news/law/article/21926741",
+          "source": "israelhayom",
+          "publisher": "ישראל היום",
+          "reported": "2026-11-25T06:22:40.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "086c74858689fc3b9236",
+      "title": "דיווח: בכיר נוסף במנגנון ביטחון הפנים של חמאס חוסל בעזה",
+      "topic": "world",
+      "reported": "2026-11-25T06:04:32.000Z",
+      "coverage": [
+        {
+          "url": "https://www.israelhayom.co.il/news/defense/article/21926679",
+          "source": "israelhayom",
+          "publisher": "ישראל היום",
+          "reported": "2026-11-25T06:04:32.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "4a70eac59acd47da220d",
+      "title": "ליברמן חוזר למשרד הביטחון: \"בשבוע הבא נוכל להשביע ממשלה ברוב יהודי\"",
+      "topic": "politics",
+      "reported": "2026-11-25T05:30:22.000Z",
+      "coverage": [
+        {
+          "url": "https://www.israelhayom.co.il/news/politics/article/21926517",
+          "source": "israelhayom",
+          "publisher": "ישראל היום",
+          "reported": "2026-11-25T05:30:22.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "700352fec6f92c03d2bd",
+      "title": "המושל היהודי שסומן לנשיאות ארה\"ב: \"נתניהו כושל - הוביל את ישראל לדרך חשוכה\"",
+      "topic": "politics",
+      "reported": "2026-11-25T05:02:33.000Z",
+      "coverage": [
+        {
+          "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21926473",
+          "source": "israelhayom",
+          "publisher": "ישראל היום",
+          "reported": "2026-11-25T05:02:33.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "dadf7d21f7e46634388c",
+      "title": "טראמפ מבהיר: \"מעולם לא הייתי בעד או נגד שינוי המשטר באיראן\"",
+      "topic": "world",
+      "reported": "2026-11-25T02:47:23.000Z",
+      "coverage": [
+        {
+          "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21926401",
+          "source": "israelhayom",
+          "publisher": "ישראל היום",
+          "reported": "2026-11-25T02:47:23.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "b99ed0280bf74ca8df20",
+      "title": "\"מבקשת להרחיק את אהוב ליבי, הוא חזר מהמלחמה לא אותו אדם\"",
+      "topic": "world",
+      "reported": "2026-11-25T02:38:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.israelhayom.co.il/news/law/article/21925546",
+          "source": "israelhayom",
+          "publisher": "ישראל היום",
+          "reported": "2026-11-25T02:38:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "ac554cf5abea68832007",
+      "title": "הונאת בנקים והפרת סנקציות על איראן: ענקית הטכנולוגיה Huawei הורשעה בארה\"ב",
+      "topic": "world",
+      "reported": "2026-11-25T00:20:26.000Z",
+      "coverage": [
+        {
+          "url": "https://www.israelhayom.co.il/news/world-news/article/21926255",
+          "source": "israelhayom",
+          "publisher": "ישראל היום",
+          "reported": "2026-11-25T00:20:26.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "d15ba8bf44925053aa19",
+      "title": "תרבות עיתונאית וקווים אדומים",
+      "topic": "culture",
+      "reported": "2026-11-24T22:29:26.000Z",
+      "coverage": [
+        {
+          "url": "https://www.israelhayom.co.il/opinions/article/21926062",
+          "source": "israelhayom",
+          "publisher": "ישראל היום",
+          "reported": "2026-11-24T22:29:26.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "fde67682d5b8f95ce1a5",
+      "title": "מאיזנקוט ועד נתניהו: הפקק בדרך לבני ברק יעלה למשרתים ביוקר",
+      "topic": "politics",
+      "reported": "2026-11-25T04:00:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.haaretz.co.il/opinions/2026-11-25/ty-article-opinion/.premium/000001a2-0e63-d583-a3f7-aef3085e0000",
+          "source": "haaretz",
+          "publisher": "הארץ",
+          "reported": "2026-11-25T04:00:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "3adfc805a32a2ac1eabe",
+      "title": "הם יקראו לכם משת\"פים בכל מקרה, תקימו כבר את הממשלה",
+      "topic": "politics",
+      "reported": "2026-11-25T04:00:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.haaretz.co.il/opinions/2026-11-25/ty-article-opinion/.premium/000001a2-0eb8-d741-a3e2-8eba2f580000",
+          "source": "haaretz",
+          "publisher": "הארץ",
+          "reported": "2026-11-25T04:00:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "923c97af12aa0dd58f02",
+      "title": "יותר מדי ועדות, ממשלה מנופחת ומחסור חמור בזמן: מה מקשה על הח\"כים לעבוד",
+      "topic": "politics",
+      "reported": "2026-11-25T04:01:14.000Z",
+      "coverage": [
+        {
+          "url": "https://www.haaretz.co.il/news/magazine/2026-11-25/ty-article-magazine/.premium/000001a2-08d6-da6f-adab-dff6cdfd0000",
+          "source": "haaretz",
+          "publisher": "הארץ",
+          "reported": "2026-11-25T04:01:14.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "92c4e115d3d15ad3a7eb",
+      "title": "בעקבות המלחמה בעזה, הוכרז פיצול בארגון הסופרים PEN",
+      "topic": "world",
+      "reported": "2026-11-24T09:37:13.000Z",
+      "coverage": [
+        {
+          "url": "https://www.haaretz.co.il/gallery/literature/2026-11-24/ty-article/000001a2-0c90-d2ed-ade2-cdbd2c140000",
+          "source": "haaretz",
+          "publisher": "הארץ",
+          "reported": "2026-11-24T09:37:13.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "892f324e6df9ac50b5c9",
+      "title": "יצחק לוי, לשעבר יו\"ר המפד\"ל ושר החינוך, מת בגיל 79",
+      "topic": "culture",
+      "reported": "2026-11-24T11:09:58.000Z",
+      "coverage": [
+        {
+          "url": "https://www.haaretz.co.il/news/politi/2026-11-24/ty-article/000001a2-0d05-d48b-adaf-0db79fde0000",
+          "source": "haaretz",
+          "publisher": "הארץ",
+          "reported": "2026-11-24T11:09:58.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "d3136b077dddf36b9c07",
+      "title": "נתונים שהודלפו חושפים: יותר מאלף חיילים רוסים התאבדו במהלך המלחמה באוקראינה",
+      "topic": "world",
+      "reported": "2026-11-24T10:46:41.000Z",
+      "coverage": [
+        {
+          "url": "https://www.haaretz.co.il/news/world/europe/2026-11-24/ty-article/.premium/000001a2-0d08-d1f3-affb-2f68e7390000",
+          "source": "haaretz",
+          "publisher": "הארץ",
+          "reported": "2026-11-24T10:46:41.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "830b8d4edcc9ca5f50bc",
+      "title": "ישראל הרגה את ראש מנגנון ביטחון הפנים של חמאס, שבעה נוספים נהרגו בתקיפות",
+      "topic": "world",
+      "reported": "2026-11-24T10:56:22.000Z",
+      "coverage": [
+        {
+          "url": "https://www.haaretz.co.il/news/politics/2026-11-24/ty-article/000001a2-0d20-d9a3-abea-7f36cb800000",
+          "source": "haaretz",
+          "publisher": "הארץ",
+          "reported": "2026-11-24T10:56:22.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "4108e87949d8721f8b9e",
+      "title": "יועמ\"שית הכנסת: מותר לכנות חבר כנסת \"תומך טרור\", אבל לא באופן שיטתי",
+      "topic": "politics",
+      "reported": "2026-11-24T14:14:44.000Z",
+      "coverage": [
+        {
+          "url": "https://www.haaretz.co.il/news/elections/2026-11-24/ty-article/000001a2-0de7-d089-a1fe-2df76de20000",
+          "source": "haaretz",
+          "publisher": "הארץ",
+          "reported": "2026-11-24T14:14:44.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "11a60eb7f645b657e428",
+      "title": "כץ החרים כתבים צבאיים — ובתגובה מרבית הכתבים החרימו את התדרוך שלו",
+      "topic": "world",
+      "reported": "2026-11-24T16:36:01.000Z",
+      "coverage": [
+        {
+          "url": "https://www.haaretz.co.il/gallery/media/2026-11-24/ty-article/.premium/000001a2-0def-d629-abe7-2def1c3f0000",
+          "source": "haaretz",
+          "publisher": "הארץ",
+          "reported": "2026-11-24T16:36:01.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "f30ab211ca00c8939392",
+      "title": "\"תמיד לוקח אצל עודד זמן אבל בסוף יתחבר\"",
+      "topic": "sports",
+      "reported": "2026-11-25T08:06:01.000Z",
+      "coverage": [
+        {
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=568917",
+          "source": "sport5",
+          "publisher": "ספורט 5",
+          "reported": "2026-11-25T08:06:01.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "b23ae74a7c00a4c2e0a3",
+      "title": "הנערות יוצאות למוקדמות אליפות אירופה",
+      "topic": "sports",
+      "reported": "2026-11-25T07:47:45.000Z",
+      "coverage": [
+        {
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=616&docID=568915",
+          "source": "sport5",
+          "publisher": "ספורט 5",
+          "reported": "2026-11-25T07:47:45.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "57397274aab118ef71d1",
+      "title": "צפו: השחזור הבלתי נתפס של נייג`ל הייז-דייויס",
+      "topic": "sports",
+      "reported": "2026-11-25T07:25:05.000Z",
+      "coverage": [
+        {
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=568913",
+          "source": "sport5",
+          "publisher": "ספורט 5",
+          "reported": "2026-11-25T07:25:05.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "739a516ac75ad669674f",
+      "title": "\"לא מתעסקים בבכורה של רן בן שמעון\"",
+      "topic": "sports",
+      "reported": "2026-11-25T07:18:17.000Z",
+      "coverage": [
+        {
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=64&docID=568911",
+          "source": "sport5",
+          "publisher": "ספורט 5",
+          "reported": "2026-11-25T07:18:17.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "0eb5414af7ab5d22829b",
+      "title": "נתניה העבירה לב\"ש רק 1,400 כרטיסים",
+      "topic": "sports",
+      "reported": "2026-11-25T07:08:07.000Z",
+      "coverage": [
+        {
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=64&docID=568910",
+          "source": "sport5",
+          "publisher": "ספורט 5",
+          "reported": "2026-11-25T07:08:07.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "90a048886e95f6623b65",
+      "title": "בהיעדר טוריאל: הציפייה בהפועל ת\"א מאווסו",
+      "topic": "sports",
+      "reported": "2026-11-25T06:55:33.000Z",
+      "coverage": [
+        {
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=64&docID=568909",
+          "source": "sport5",
+          "publisher": "ספורט 5",
+          "reported": "2026-11-25T06:55:33.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "544066d988a09e7a9f91",
+      "title": "לא יקבל עוד הזדמנות? מעמד צונאמי התערער",
+      "topic": "sports",
+      "reported": "2026-11-25T06:34:18.000Z",
+      "coverage": [
+        {
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=64&docID=568908",
+          "source": "sport5",
+          "publisher": "ספורט 5",
+          "reported": "2026-11-25T06:34:18.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "52cf57f4bd3f73a0974d",
+      "title": "\"הקשר הטוב בעולם\": השער המשוגע של ג`וד בלינגהאם",
+      "topic": "sports",
+      "reported": "2026-11-25T06:22:47.000Z",
+      "coverage": [
+        {
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=398&docID=568907",
+          "source": "sport5",
+          "publisher": "ספורט 5",
+          "reported": "2026-11-25T06:22:47.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "51ec28ce2b98acc51d98",
+      "title": "מכבי תל אביב שומרת. מי היה מאמין?",
+      "topic": "sports",
+      "reported": "2026-11-25T04:58:06.000Z",
+      "coverage": [
+        {
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=568903",
+          "source": "sport5",
+          "publisher": "ספורט 5",
+          "reported": "2026-11-25T04:58:06.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "5f61a429c15cbdbb73a3",
+      "title": "דרמה וכוכבים: צפו בתקצירי ליגת האלופות",
+      "topic": "sports",
+      "reported": "2026-11-24T23:48:57.000Z",
+      "coverage": [
+        {
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=398&docID=568900",
+          "source": "sport5",
+          "publisher": "ספורט 5",
+          "reported": "2026-11-24T23:48:57.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "772ae375350eeadd25ee",
+      "title": "נקודת מפנה? מאחורי הניצחון של מכבי ת\"א",
+      "topic": "sports",
+      "reported": "2026-11-24T23:19:09.000Z",
+      "coverage": [
+        {
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=568899",
+          "source": "sport5",
+          "publisher": "ספורט 5",
+          "reported": "2026-11-24T23:19:09.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "2652444e522731dc9d4f",
+      "title": "סערה באלופות: השופט פסק לשער שלא נכבש",
+      "topic": "sports",
+      "reported": "2026-11-24T23:09:59.000Z",
+      "coverage": [
+        {
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=398&docID=568898",
+          "source": "sport5",
+          "publisher": "ספורט 5",
+          "reported": "2026-11-24T23:09:59.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "673e27eaea1ef168dcb9",
+      "title": "\"מכבי תל אביב ניצחה בצדק\": בגרמניה התאכזבו",
+      "topic": "sports",
+      "reported": "2026-11-24T22:29:30.000Z",
+      "coverage": [
+        {
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=568896",
+          "source": "sport5",
+          "publisher": "ספורט 5",
+          "reported": "2026-11-24T22:29:30.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "e75f5afdf0dc362a09ba",
+      "title": "\"הסינדרלה של פברגאס\": איטליה בהלם מקומו",
+      "topic": "sports",
+      "reported": "2026-11-24T22:26:56.000Z",
+      "coverage": [
+        {
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=398&docID=568895",
+          "source": "sport5",
+          "publisher": "ספורט 5",
+          "reported": "2026-11-24T22:26:56.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "90ae35abe30f16a4ae0a",
+      "title": "מכבי ת\"א במקום השני עם 0:3 על עיילבון",
+      "topic": "sports",
+      "reported": "2026-11-24T22:23:07.000Z",
+      "coverage": [
+        {
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=1716&docID=568894",
+          "source": "sport5",
+          "publisher": "ספורט 5",
+          "reported": "2026-11-24T22:23:07.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "1376f1049887a39359bc",
+      "title": "\"הוא מצטיין המשחק\": הציון שקיבל פרץ",
+      "topic": "sports",
+      "reported": "2026-11-24T22:01:29.000Z",
+      "coverage": [
+        {
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=252&docID=568893",
+          "source": "sport5",
+          "publisher": "ספורט 5",
+          "reported": "2026-11-24T22:01:29.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "f22a5d6c1ce8578006bd",
+      "title": "\"אני מטיל ספק\": גם הלאנד התייאש מסיטי?",
+      "topic": "sports",
+      "reported": "2026-11-24T21:37:06.000Z",
+      "coverage": [
+        {
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=398&docID=568892",
+          "source": "sport5",
+          "publisher": "ספורט 5",
+          "reported": "2026-11-24T21:37:06.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "dc7ca53b3f497a3cae51",
+      "title": "ללא ינון אליהו: מכבי יבנה מוכנה לעירוני אשדוד",
+      "topic": "sports",
+      "reported": "2026-11-25T08:29:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539801.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-25T08:29:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "9e2b7fcd8cf644faba0b",
+      "title": "הולאנד: זה לא מספיק טוב, נתנו להם לכבוש בקלות",
+      "topic": "sports",
+      "reported": "2026-11-25T08:15:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539800.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-25T08:15:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "478dfad3b2a622d3cc5c",
+      "title": "מינוי חדש: צחי בכר מונה למאמן נערים א' בסכנין",
+      "topic": "sports",
+      "reported": "2026-11-25T08:07:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539799.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-25T08:07:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "9921ec8cd6b4ab43d65e",
+      "title": "\"לעולם לא אסגור את הדלת בפני ספורטינג ליסבון\"",
+      "topic": "sports",
+      "reported": "2026-11-25T08:05:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539797.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-25T08:05:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "feca4d68d866b4cc10eb",
+      "title": "\"האם לאמין ימאל נשאר בבית כי הוא משחק GTA?\"",
+      "topic": "sports",
+      "reported": "2026-11-25T07:57:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539798.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-25T07:57:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "84b7a9a7146f39427f2b",
+      "title": "\"ריאל הציגה משחק נהדר, משהו קורה שם, תיזהרו\"",
+      "topic": "sports",
+      "reported": "2026-11-25T07:46:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539796.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-25T07:46:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "414b3e785a4b241ce63b",
+      "title": "טייטום: היה שבוע קשה, אי אפשר לשנות מה שקרה",
+      "topic": "sports",
+      "reported": "2026-11-25T07:33:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539795.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-25T07:33:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "3aa980a97c00338e8281",
+      "title": "21 נקודות ו-10 אסיסטים לבן שרף בג'י ליג",
+      "topic": "sports",
+      "reported": "2026-11-25T07:19:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539794.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-25T07:19:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "37cbc096e186bb1f84e9",
+      "title": "מאבד גובה: המעמד של מאייר בפרדו ממשיך לצנוח",
+      "topic": "sports",
+      "reported": "2026-11-25T07:19:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539793.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-25T07:19:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "5587f349c0eb16dda50c",
+      "title": "\"אלוהים אדירים, פליקס גאון, ראוי לפרס פושקאש\"",
+      "topic": "sports",
+      "reported": "2026-11-25T07:06:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539792.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-25T07:06:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "30dbb7177921b55e0e4e",
+      "title": "\"הוכחנו שאנחנו יכולים להתמודד מול הגדולות\"",
+      "topic": "sports",
+      "reported": "2026-11-25T06:32:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539784.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-25T06:32:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "16d5c22870f1b95bf7e2",
+      "title": "\"הייתה הופעה מצוינת, יש תחושת החמצה מהתיקו\"",
+      "topic": "sports",
+      "reported": "2026-11-25T06:25:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539783.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-25T06:25:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "fc77743a8d83c5e0140d",
+      "title": "ב-Winner חשפו את היחס למשחק של סבאח נגד בארסה",
+      "topic": "sports",
+      "reported": "2026-11-25T06:03:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539788.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-25T06:03:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "cff2bd3d604062b9387c",
+      "title": "\"אולי נמכור אותו בינואר ב-20 מיליון אירו\"",
+      "topic": "sports",
+      "reported": "2026-11-25T05:45:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539785.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-25T05:45:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "ef2453aed0ee8a9bb977",
+      "title": "אלוף עולם ישראלי באגרוף? והכנות ל-UTMA 21",
+      "topic": "sports",
+      "reported": "2026-11-25T05:12:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539786.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-25T05:12:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "3fa0d87092a895555aee",
+      "title": "טייטום התפוצץ עם 41. ניצחון מרשים לדטרויט",
+      "topic": "sports",
+      "reported": "2026-11-25T04:41:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539782.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-25T04:41:00.000Z",
+          "excerpt": ""
+        },
+        {
+          "url": "https://www.ynet.co.il/sport/article/one539782",
+          "source": "ynet-sport",
+          "publisher": "ynet ספורט",
+          "reported": "2026-11-25T04:45:31.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "934a92f3085a06ce503f",
+      "title": "\"הסיבה לשיפור ביכולת שלי? מוריניו, וזהו\"",
+      "topic": "sports",
+      "reported": "2026-11-25T04:31:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539781.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-25T04:31:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "34943443808353d66ea8",
+      "title": "\"חשבתי שאפשר לנצח בלי בלינגהאם, אולי טעיתי\"",
+      "topic": "sports",
+      "reported": "2026-11-25T04:24:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539780.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-25T04:24:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "4f4d277575b628278f96",
+      "title": "\"ידענו לקחת משחק קשה והפכפך, הלחץ היה עלינו\"",
+      "topic": "sports",
+      "reported": "2026-11-25T04:07:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539776.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-25T04:07:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "243dea645ae98c8511de",
+      "title": "חוקי וזנקוב: המבחן הגדול של הפועל תל אביב",
+      "topic": "sports",
+      "reported": "2026-11-25T04:00:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539764.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-25T04:00:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "2481257f3f38252c9bd5",
+      "title": "אסור למכבי ליפול לשאננות אחרי ניצחון על באיירן",
+      "topic": "sports",
+      "reported": "2026-11-24T22:56:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539778.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-24T22:56:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "43930ecf0cd7a5e80b60",
+      "title": "ויקטור גיוקרש: הגיע לנו את שלוש הנקודות",
+      "topic": "sports",
+      "reported": "2026-11-24T22:42:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539779.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-24T22:42:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "b0612b08e7c6661ffe29",
+      "title": "\"האט את המשחק\": ביקורת באנגליה על סולומון",
+      "topic": "sports",
+      "reported": "2026-11-24T22:36:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539777.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-24T22:36:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "fb2179555dba090ef21f",
+      "title": "פרץ נבחר למצטיין: \"הצלות מרשימות ורגעים טובים\"",
+      "topic": "sports",
+      "reported": "2026-11-24T22:32:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.one.co.il/Article/539775.html?ref=rss",
+          "source": "one-sport",
+          "publisher": "ONE",
+          "reported": "2026-11-24T22:32:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "89e4c1bd35b9b07eb3dc",
+      "title": "וולף בין הקורות, ויטור בהגנה: ההרכב המסתמן של באר שבע מול בשיקטאש",
+      "topic": "sports",
+      "reported": "2026-11-25T08:37:24.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/israeli-soccer/ligat-haal/article/2005959/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T08:37:24.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "dcce184d3af52d5aae97",
+      "title": "חיים רביבו הסביר מדוע לדעתו אייל ברקוביץ' צריך להתמנות למאמן נבחרת ישראל",
+      "topic": "sports",
+      "reported": "2026-11-25T08:31:38.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/israeli-soccer/israeli-team/article/2005962/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T08:31:38.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "8e1b0f8bbbc6d1fd9a59",
+      "title": "כבר בחודש ינואר: עופרי ארד עשוי להצטרף למועדון גדול בליגת העל",
+      "topic": "sports",
+      "reported": "2026-11-25T08:03:15.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/israeli-soccer/article/2005948/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T08:03:15.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "729d67499c93f5edb2f1",
+      "title": "אחרי התוצאות המאכזבות: צ'לסי קיבלה החלטה לגבי צ'אבי אלונסו",
+      "topic": "sports",
+      "reported": "2026-11-25T07:54:57.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/world-soccer/article/2005937/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T07:54:57.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "d676b9f8651d22810931",
+      "title": "בדרך למינוי מפתיע? ז'ארקו לאזטיץ' עשוי לחזור לכדורגל הישראלי",
+      "topic": "sports",
+      "reported": "2026-11-25T07:49:48.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/israeli-soccer/national-team/article/2005934/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T07:49:48.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "f4f4dc8894bdbd9997d2",
+      "title": "אחרי כמעט שנתיים: הזוגיות שהלהיבה את עולם הספורט הגיעה לסיומה",
+      "topic": "sports",
+      "reported": "2026-11-25T07:34:10.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/square/article/2005916/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T07:34:10.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "4ff72c466ca46d5511c6",
+      "title": "שינויים דרמטיים: השחקן שצפוי ליהנות ממינויו של רן בן שמעון למאמן מכבי חיפה",
+      "topic": "sports",
+      "reported": "2026-11-25T07:28:41.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/israeli-soccer/ligat-haal/article/2005902/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T07:28:41.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "b09b9d099192329845b0",
+      "title": "\"אנחנו האנדרדוג\": הפועל תל אביב דרוכה לקראת אולימפיאקוס",
+      "topic": "sports",
+      "reported": "2026-11-25T07:19:26.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/world-basketball/article/2005914/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T07:19:26.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "2acd977fb4b34d0764a0",
+      "title": "דניאל פרץ שוב הדהים את אנגליה: \"אין עוד שוער בליגה שמתקרב אליו\" | צפו",
+      "topic": "sports",
+      "reported": "2026-11-25T07:18:12.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/israeli-soccer/israelis-abroad/article/2005901/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T07:18:12.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "e220ad3aad2cde78d516",
+      "title": "\"אחת התקופות הקשות בקריירה\": סתיו למקין פתח את הלב אחרי הקאמבק",
+      "topic": "sports",
+      "reported": "2026-11-25T07:12:53.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/israeli-soccer/israelis-abroad/article/2005899/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T07:12:53.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "84630121e4ce700e5478",
+      "title": "פפ גווארדיולה חשף: זה הכוכב שעדיין לא אימן והיה רוצה לאמן",
+      "topic": "sports",
+      "reported": "2026-11-25T07:00:34.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/world-soccer/article/2005893/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T07:00:34.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "f2da62faccc4099fd0a1",
+      "title": "מכבי תל אביב: \"אין ולא תהיה סובלנות להתנהגות פוגענית\"",
+      "topic": "sports",
+      "reported": "2026-11-25T06:55:24.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/other-industries/article/2005896/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T06:55:24.000Z",
+          "excerpt": ""
+        },
+        {
+          "url": "https://sports.walla.co.il/item/3877562",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T09:53:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "0c8efe19edfa0e55671b",
+      "title": "מעלית פרטית ונוף לים: כמה עולה לחיות כמו נועה קירל ודניאל פרץ?",
+      "topic": "sports",
+      "reported": "2026-11-25T06:46:40.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/square/article/2005883/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T06:46:40.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "2f6d9a6a89c7c7c16ff7",
+      "title": "רומן סורקין עשה סדר | הטור של דבורין",
+      "topic": "sports",
+      "reported": "2026-11-25T06:45:58.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/israeli-basketball/%d7%a0%d7%91%d7%97%d7%a8%d7%95%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%91%d7%9b%d7%93%d7%95%d7%a8%d7%a1%d7%9c/article/2005888/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T06:45:58.000Z",
+          "excerpt": ""
+        },
+        {
+          "url": "https://sports.walla.co.il/item/3877561",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T09:45:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "8280a877471ad8dad3ac",
+      "title": "ברקוביץ' מצא דרך מקורית להתחיל עם בחורה – דרך אמא שלה",
+      "topic": "sports",
+      "reported": "2026-11-25T06:40:51.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/square/article/2005880/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T06:40:51.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "3d874cf9d9f969d94a6b",
+      "title": "זעזוע גדול על הפרק: אייל ברקוביץ' מוכן לעזוב את התקשורת לטובת תפקיד חייו",
+      "topic": "sports",
+      "reported": "2026-11-25T06:32:16.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/israeli-soccer/israeli-team/article/2005839/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T06:32:16.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "8c3866fafc8afa9a96db",
+      "title": "שיא שלילי בדקות משחק לעומר מאייר, פרדו שוב הפסידה",
+      "topic": "sports",
+      "reported": "2026-11-25T06:31:14.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/israeli-basketball/%d7%a0%d7%91%d7%97%d7%a8%d7%95%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%91%d7%9b%d7%93%d7%95%d7%a8%d7%a1%d7%9c/article/2005876/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T06:31:14.000Z",
+          "excerpt": ""
+        },
+        {
+          "url": "https://sports.walla.co.il/item/3877558",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T09:24:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "46b2994f885b4b2c1787",
+      "title": "המהלך שעוד לא נראה באירופה: התוכנית החדשה של היורוליג",
+      "topic": "sports",
+      "reported": "2026-11-25T06:25:38.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/world-basketball/article/2005865/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T06:25:38.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "51e5a2b57d7618c50b41",
+      "title": "מכבי והפועל תל אביב, שימו לב: עשרת השמות הגדולים באירופה שעדיין פנויים",
+      "topic": "sports",
+      "reported": "2026-11-25T06:09:42.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/world-basketball/article/2005852/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T06:09:42.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "66505fdc5e5044a5843a",
+      "title": "ברק בכר בהלם: \"בשום פנים ואופן, הוא לא מועמד\"",
+      "topic": "sports",
+      "reported": "2026-11-25T05:56:38.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/israeli-soccer/israeli-team/article/2005847/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T05:56:38.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "285f2610d478ff306295",
+      "title": "עידן ורד הדהים את הפועל באר שבע: אליאל פרץ צריך לעבור למכבי חיפה",
+      "topic": "sports",
+      "reported": "2026-11-25T05:27:02.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/israeli-soccer/ligat-haal/article/2005825/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T05:27:02.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "fab93d2a445c92bea941",
+      "title": "\"אולי הסמול פורוורד הטוב ב-NBA\": בארה\"ב סימנו לדני אבדיה יעד בלתי נתפס",
+      "topic": "sports",
+      "reported": "2026-11-25T05:23:32.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/world-basketball/nba/article/2005826/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T05:23:32.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "b1a5fc14a3129aef95cc",
+      "title": "מכבי תל אביב סימנה את באיירן כנקודת מפנה – סורקין עשוי להיות המפתח לשינוי",
+      "topic": "sports",
+      "reported": "2026-11-25T05:00:14.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/israeli-basketball/winner-basketball-league/article/2005820/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T05:00:14.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "3e381391bc8943cb66f1",
+      "title": "בוסטון חגגה בוושינגטון, דאלאס הלוהטת נותרה מושלמת בגביע",
+      "topic": "sports",
+      "reported": "2026-11-25T04:55:22.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/world-basketball/nba/article/2005814/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T04:55:22.000Z",
+          "excerpt": ""
+        },
+        {
+          "url": "https://sports.walla.co.il/item/3877550",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T07:53:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "e8e3289c8223e0110571",
+      "title": "\"מאט את המשחק\": הביקורת החריפה על מנור סולומון אחרי ההפסד",
+      "topic": "sports",
+      "reported": "2026-11-25T04:53:45.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/israeli-soccer/israelis-abroad/article/2005810/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T04:53:45.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "076c15066d15ed5cdd21",
+      "title": "\"משעממת וצפויה\": הביקורת החריפה על מנצ'סטר סיטי אחרי עוד אכזבה",
+      "topic": "sports",
+      "reported": "2026-11-25T04:41:51.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/world-soccer/article/2005804/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T04:41:51.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "459f10ee7dca1a1016dc",
+      "title": "\"איפה שלוש הנקודות?\": פוצ'טינו זעם אחרי ביטול ההרחקה של יורו",
+      "topic": "sports",
+      "reported": "2026-11-25T04:28:19.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/world-soccer/champions-league/article/2005690/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T04:28:19.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "2df6405f36cc9c94963b",
+      "title": "\"מיקום רע\": הביקורות על השער שדניאל פרץ ספג העיבו על ההופעה הגדולה",
+      "topic": "sports",
+      "reported": "2026-11-25T04:28:01.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/israeli-soccer/israelis-abroad/article/2005722/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T04:28:01.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "0612571bb7631613b034",
+      "title": "ברונו פרננדש אישר שהשיחות להארכת חוזהו נעצרו והצהיר על יעד אפשרי למעבר",
+      "topic": "sports",
+      "reported": "2026-11-25T04:27:40.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/world-soccer/champions-league/article/2005730/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T04:27:40.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "1e6a9c8d391a74cb1669",
+      "title": "בספרד חגגו קאמבק חריג: \"ריאל מדריד המריאה – ואי אפשר היה לעצור אותה\"",
+      "topic": "sports",
+      "reported": "2026-11-25T04:27:12.000Z",
+      "coverage": [
+        {
+          "url": "https://sport1.maariv.co.il/world-soccer/champions-league/article/2005729/",
+          "source": "sport1",
+          "publisher": "ספורט 1",
+          "reported": "2026-11-25T04:27:12.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "54272628dc5466a226f5",
+      "title": "יעלה עם השלישייה החזקה? התלבטות קוז'וך לפני בשיקטאש",
+      "topic": "sports",
+      "reported": "2026-11-25T11:21:00.000Z",
+      "coverage": [
+        {
+          "url": "https://sports.walla.co.il/item/3877576",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T11:21:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "43c72d9629ce4438fce2",
+      "title": "המחווה המרגשת של כוכב ה-NFL למשפחה שאיבדה תינוק",
+      "topic": "sports",
+      "reported": "2026-11-25T11:14:00.000Z",
+      "coverage": [
+        {
+          "url": "https://sports.walla.co.il/item/3877515",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T11:14:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "954d53febb14038d3523",
+      "title": "\"החיים מוזרים, החיים פיוטיים\": הייז-דייויס שוב שבר את ולנסיה",
+      "topic": "sports",
+      "reported": "2026-11-25T10:54:00.000Z",
+      "coverage": [
+        {
+          "url": "https://sports.walla.co.il/item/3877573",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T10:54:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "f2639d16aa991b46b160",
+      "title": "יחזור כמאמן הלאומי? ז'ארקו לאזטיץ' הועלה כאופציה לנבחרת ישראל",
+      "topic": "sports",
+      "reported": "2026-11-25T10:45:00.000Z",
+      "coverage": [
+        {
+          "url": "https://sports.walla.co.il/item/3877571",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T10:45:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "2454c0841ac075145b05",
+      "title": "אקס דורטמונד התוודה: רגעי האימה שמלווים אותו מאז הפיגוע",
+      "topic": "sports",
+      "reported": "2026-11-25T10:32:00.000Z",
+      "coverage": [
+        {
+          "url": "https://sports.walla.co.il/item/3877521",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T10:32:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "9277361cc9871480bd6f",
+      "title": "\"היו לנו כמה הפסדים מיותרים\": הפועל תל אביב חייבת להתעשת",
+      "topic": "sports",
+      "reported": "2026-11-25T10:19:00.000Z",
+      "coverage": [
+        {
+          "url": "https://sports.walla.co.il/item/3877568",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T10:19:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "5bc52399b5c9f7d29511",
+      "title": "מוערך מאוד על ידי רן בן שמעון: ירין לוי יהפוך לשחקן מפתח במכבי חיפה",
+      "topic": "sports",
+      "reported": "2026-11-25T10:10:00.000Z",
+      "coverage": [
+        {
+          "url": "https://sports.walla.co.il/item/3877566",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T10:10:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "5a01ffed898dfda6d70a",
+      "title": "\"סטירת לחי לישראל\": בטורקיה חוגגים את ההתרסה",
+      "topic": "sports",
+      "reported": "2026-11-25T09:35:00.000Z",
+      "coverage": [
+        {
+          "url": "https://sports.walla.co.il/item/3877560",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T09:35:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "b63fbecf0f93edd1cd57",
+      "title": "מוריניו שלף את הנשק הסודי, \"בלינגהאם הקשר הטוב בעולם\"",
+      "topic": "sports",
+      "reported": "2026-11-25T09:15:00.000Z",
+      "coverage": [
+        {
+          "url": "https://sports.walla.co.il/item/3877556",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T09:15:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "b0704d2d0cf7a06d8458",
+      "title": "פפ גווארדיולה חשב על זה ממושכות - ודחה: \"התביישתי לסרב להם\"",
+      "topic": "sports",
+      "reported": "2026-11-25T09:07:00.000Z",
+      "coverage": [
+        {
+          "url": "https://sports.walla.co.il/item/3877555",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T09:07:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "2522a3bfd122d1d22cb6",
+      "title": "הלייק שנמחק: הדוגמנית החדשה שנקשרה ליאניק סינר",
+      "topic": "sports",
+      "reported": "2026-11-25T09:02:00.000Z",
+      "coverage": [
+        {
+          "url": "https://sports.walla.co.il/item/3877539",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T09:02:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "89fb2f5feb1605d4676d",
+      "title": "\"זה לא מינוי לגיטימי. זו פנטזיה\": הוויכוח על איל ברקוביץ'",
+      "topic": "sports",
+      "reported": "2026-11-25T08:57:00.000Z",
+      "coverage": [
+        {
+          "url": "https://sports.walla.co.il/item/3877533",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T08:57:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "f867ed8b2d08681c9a02",
+      "title": "המהפכה בסטיאווה תהיה ההזדמנות של קבוצות ליגת העל?",
+      "topic": "sports",
+      "reported": "2026-11-25T08:50:00.000Z",
+      "coverage": [
+        {
+          "url": "https://sports.walla.co.il/item/3877530",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T08:50:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "40f90195f84950ba92f7",
+      "title": "\"מתחילים להטיל ספק בכל דבר\": המשבר של מנצ'סטר סיטי מחריף",
+      "topic": "sports",
+      "reported": "2026-11-25T08:44:00.000Z",
+      "coverage": [
+        {
+          "url": "https://sports.walla.co.il/item/3877554",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T08:44:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "6dd0b58519e1610466b9",
+      "title": "חיים רביבו חשף מדוע רוי הוחלף וסיפר על החששות בקיץ",
+      "topic": "sports",
+      "reported": "2026-11-25T08:36:00.000Z",
+      "coverage": [
+        {
+          "url": "https://sports.walla.co.il/item/3877537",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T08:36:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "cb738a3cd04f0686b8b8",
+      "title": "מנור סולומון שוב קיבל ציון מביך, והיה גם בלגן בווסטהאם | צפו",
+      "topic": "sports",
+      "reported": "2026-11-25T08:22:00.000Z",
+      "coverage": [
+        {
+          "url": "https://sports.walla.co.il/item/3877544",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T08:22:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "42caa7e74751cf032a0c",
+      "title": "\"משחק של ציון 11 מתוך 10\": צפו בהצלות של דניאל פרץ",
+      "topic": "sports",
+      "reported": "2026-11-25T08:15:00.000Z",
+      "coverage": [
+        {
+          "url": "https://sports.walla.co.il/item/3877545",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T08:15:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "42c8a24c58af59c634a3",
+      "title": "\"דני אבדיה אולי הסמול פורוורד הטוב בליגה. גמר ה-NBA אפשרי\"",
+      "topic": "sports",
+      "reported": "2026-11-25T08:04:00.000Z",
+      "coverage": [
+        {
+          "url": "https://sports.walla.co.il/item/3877531",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T08:04:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "91c4d429d86dea05a059",
+      "title": "מכבי תל אביב החלה את הקאמבק? \"יש לנו עוד מטרות העונה\"",
+      "topic": "sports",
+      "reported": "2026-11-25T08:00:00.000Z",
+      "coverage": [
+        {
+          "url": "https://sports.walla.co.il/item/3877551",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T08:00:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "ba9299a1c3309fc39f49",
+      "title": "ויניסיוס חזר לחייך, \"זינדין בלינגהאם\" הטריף את מדריד",
+      "topic": "sports",
+      "reported": "2026-11-25T01:20:00.000Z",
+      "coverage": [
+        {
+          "url": "https://sports.walla.co.il/item/3877548",
+          "source": "walla-sport",
+          "publisher": "וואלה ספורט",
+          "reported": "2026-11-25T01:20:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "22491a7cec80a9fae809",
+      "title": "המילים האחרונות ששמעתי ממראדונה: \"אל תשאירו אותי לבד\"",
+      "topic": "sports",
+      "reported": "2026-11-25T08:00:06.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/sport/worldsoccer/article/r1hz3oq1me",
+          "source": "ynet-sport",
+          "publisher": "ynet ספורט",
+          "reported": "2026-11-25T08:00:06.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "dc313e47a577d15959e0",
+      "title": "מכבי ת\"א בכנס ראשון מסוגו: \"אפס סובלנות להתנהגות פוגענית\"",
+      "topic": "sports",
+      "reported": "2026-11-25T07:36:09.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/sport/article/bkn9cweyxe",
+          "source": "ynet-sport",
+          "publisher": "ynet ספורט",
+          "reported": "2026-11-25T07:36:09.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "f2006e7e8e4c80243967",
+      "title": "\"הוא פשוט הציל אתכם\": המחמאות באנגליה לדניאל פרץ אחרי ערב ענק",
+      "topic": "sports",
+      "reported": "2026-11-25T07:00:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/sport/worldsoccer/article/b1lyiw4jme",
+          "source": "ynet-sport",
+          "publisher": "ynet ספורט",
+          "reported": "2026-11-25T07:00:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "6b91ca91e215d41b5ba2",
+      "title": "בן שרף ממשיך להרשים: דאבל-דאבל שני ברציפות בליגת הפיתוח",
+      "topic": "sports",
+      "reported": "2026-11-25T05:30:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/sport/worldbasketball/article/h1cm1eekqg",
+          "source": "ynet-sport",
+          "publisher": "ynet ספורט",
+          "reported": "2026-11-25T05:30:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "8d43a59485d10ac6ffd0",
+      "title": "בכדורסל הישראלי השופטים מעל לחוק, והמנהלים מעל לביקורת | תוכן גולשים",
+      "topic": "sports",
+      "reported": "2026-11-25T05:00:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/sport/article/by1m5xgjxx",
+          "source": "ynet-sport",
+          "publisher": "ynet ספורט",
+          "reported": "2026-11-25T05:00:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "5acf3c9b58ff18c7933d",
+      "title": "\"הקשר הטוב בעולם\": הגולאסו של כוכב ריאל - וההשוואה לזידאן",
+      "topic": "sports",
+      "reported": "2026-11-25T04:30:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/sport/worldsoccer/article/h19sxjq1qx",
+          "source": "ynet-sport",
+          "publisher": "ynet ספורט",
+          "reported": "2026-11-25T04:30:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "b043b38c81a21e0a7f0d",
+      "title": "הניצחון שישנה לה את העונה? מכבי ת\"א סוף-סוף מצאה גיבור",
+      "topic": "sports",
+      "reported": "2026-11-25T04:30:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/sport/article/h1fljcm1qx",
+          "source": "ynet-sport",
+          "publisher": "ynet ספורט",
+          "reported": "2026-11-25T04:30:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "b9f1955ef760d57a1daf",
+      "title": "המכונה של מנצ'סטר סיטי ממשיכה לחרוק: \"כדורגל משעמם וצפוי\"",
+      "topic": "sports",
+      "reported": "2026-11-25T04:30:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/sport/worldsoccer/article/hjxd8ix17l",
+          "source": "ynet-sport",
+          "publisher": "ynet ספורט",
+          "reported": "2026-11-25T04:30:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "de0425e8a17414592c4a",
+      "title": "דני אבדיה נכנס לרשימה היוקרתית של ESPN: \"מעניש את ההגנות\"",
+      "topic": "sports",
+      "reported": "2026-11-25T04:30:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/sport/worldbasketball/article/sjqjxjqkqg",
+          "source": "ynet-sport",
+          "publisher": "ynet ספורט",
+          "reported": "2026-11-25T04:30:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "bd82c6689f5f9e69a2de",
+      "title": "הלילה שבו אבדיה גנב את ההצגה - והשתיק את פילדלפיה",
+      "topic": "sports",
+      "reported": "2026-11-24T23:30:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/sport/worldbasketball/article/rjr0ffxymg",
+          "source": "ynet-sport",
+          "publisher": "ynet ספורט",
+          "reported": "2026-11-24T23:30:00.000Z",
+          "excerpt": ""
+        }
+      ]
+    },
+    {
+      "id": "fa02b74663204f281789",
+      "title": "רץ בחום של אפריקה ובמינוס 20 באנטרקטיקה: ההישג הלא ייאמן של משפיען הרשת הגרמני",
+      "topic": "sports",
+      "reported": "2026-11-24T23:30:00.000Z",
+      "coverage": [
+        {
+          "url": "https://www.ynet.co.il/sport/article/h1cszoxj7g",
+          "source": "ynet-sport",
+          "publisher": "ynet ספורט",
+          "reported": "2026-11-24T23:30:00.000Z",
+          "excerpt": ""
+        }
+      ]
     }
   ],
   "briefs": {
@@ -81901,72 +84470,79 @@
       "10444725c2d15d38ac19",
       "ef2356887f5b31f086e3",
       "6fcd8dd1691e0cb48adb"
+    ],
+    "2026-11-25": [
+      "25555e8764acf91020a8",
+      "54272628dc5466a226f5",
+      "f802d1f43f38309d2970",
+      "0042f930817375c1e8f7",
+      "77f86f02fc8bcce1cdde"
     ]
   },
   "feeds": {
     "ynet-news": {
       "ok": true,
-      "lastSuccess": "2026-11-24T22:30:12.380Z"
+      "lastSuccess": "2026-11-25T08:40:22.765Z"
     },
     "ynet-finance": {
       "ok": true,
-      "lastSuccess": "2026-11-24T22:30:12.380Z"
+      "lastSuccess": "2026-11-25T08:40:22.765Z"
     },
     "ynet-tech": {
       "ok": true,
-      "lastSuccess": "2026-11-24T22:30:12.380Z"
+      "lastSuccess": "2026-11-25T08:40:22.765Z"
     },
     "ynet-sport": {
       "ok": true,
-      "lastSuccess": "2026-11-24T22:30:12.380Z"
+      "lastSuccess": "2026-11-25T08:40:22.765Z"
     },
     "israelhayom": {
       "ok": true,
-      "lastSuccess": "2026-11-24T22:30:12.380Z"
+      "lastSuccess": "2026-11-25T08:40:22.765Z"
     },
     "sport5": {
       "ok": true,
-      "lastSuccess": "2026-11-24T22:30:12.380Z"
+      "lastSuccess": "2026-11-25T08:40:22.765Z"
     },
     "one-sport": {
       "ok": true,
-      "lastSuccess": "2026-11-24T22:30:12.380Z"
+      "lastSuccess": "2026-11-25T08:40:22.765Z"
     },
     "sport1": {
       "ok": true,
-      "lastSuccess": "2026-11-24T22:30:12.380Z"
+      "lastSuccess": "2026-11-25T08:40:22.765Z"
     },
     "walla-sport": {
       "ok": true,
-      "lastSuccess": "2026-11-24T22:30:12.380Z"
+      "lastSuccess": "2026-11-25T08:40:22.765Z"
     },
     "n12-politics": {
       "ok": true,
-      "lastSuccess": "2026-11-24T22:30:12.380Z"
+      "lastSuccess": "2026-11-25T08:40:22.765Z"
     },
     "n12-finance": {
       "ok": true,
-      "lastSuccess": "2026-11-24T22:30:12.380Z"
+      "lastSuccess": "2026-11-25T08:40:22.765Z"
     },
     "ynet-space": {
       "ok": true,
-      "lastSuccess": "2026-11-24T22:30:12.380Z"
+      "lastSuccess": "2026-11-25T08:40:22.765Z"
     },
     "walla-politics": {
       "ok": true,
-      "lastSuccess": "2026-11-24T22:30:12.380Z"
+      "lastSuccess": "2026-11-25T08:40:22.765Z"
     },
     "walla-tech": {
       "ok": true,
-      "lastSuccess": "2026-11-24T22:30:12.380Z"
+      "lastSuccess": "2026-11-25T08:40:22.765Z"
     },
     "walla-finance": {
       "ok": true,
-      "lastSuccess": "2026-11-24T22:30:12.380Z"
+      "lastSuccess": "2026-11-25T08:40:22.765Z"
     },
     "haaretz": {
       "ok": true,
-      "lastSuccess": "2026-11-24T22:30:12.380Z"
+      "lastSuccess": "2026-11-25T08:40:22.765Z"
     },
     "c14": {
       "ok": false,
@@ -81974,7 +84550,7 @@
     },
     "i24-he": {
       "ok": true,
-      "lastSuccess": "2026-11-24T22:30:12.380Z"
+      "lastSuccess": "2026-11-25T08:40:22.765Z"
     }
   },
   "hebrew": {
